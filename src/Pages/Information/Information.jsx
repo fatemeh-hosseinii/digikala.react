@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchpost_tree } from "../Redux/InformationSlice";
+
 import Informationitem from "./Informationitem";
 import Moreinformation from "./Moreinformation";
+import { fetchpost_tree } from "../../Redux/InformationSlice";
 
 const Information = () => {
     const { information, loading, error } = useSelector((state) => state.information);

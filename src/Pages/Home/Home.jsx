@@ -1,6 +1,7 @@
-import Information from "../../Information/Information";
+
 import Slider from "../../Slider/Slider";
 import Header from "../Header/Header";
+import Information from "../Information/Information";
 import Story from "../Story/Story";
 
 

@@ -244,5 +244,69 @@
         }
         
         
+    ],
+    "Moreinfo":[
+        {
+            "id":1,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/e4de6f360fcda4f501f21419ba40a100460740cd_1727699701.png",
+            "alt":"content-media1",
+            "title":"دریافت وام"
+
+        },
+        {
+            "id":2,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/e90f351fd01e1f19f9293135d4dc252c052b649b_1730791472.jpg",
+            "alt":"content-media2",
+            "title":"حراج مد و پوشاک"
+
+        },
+        {
+            "id":3,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/c13bd207cfaf3009e063e010dc4234eef96b1d13_1708971660.png",
+            "alt":"content-media3",
+            "title":"جایزه 20 میلیون تومنی"
+
+        },
+        {
+            "id":4,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/9f821d3d47835cbb536cad9a88046e1826186fbc_1730882327.png",
+            "alt":"content-media4",
+            "title":"جدیدترین های ارایشی"
+
+        },
+        {
+            "id":5,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/afb3c938fd3149d7587b59919bfc500a461693a6_1709571657.png",
+            "alt":"content-media5",
+            "title":"سوپرمارکت پر تخفیف"
+
+        },
+        {
+            "id":6,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/897632bd1a31dba6e244c4ff1561c70ee8fd51a7_1730873814.png",
+            "alt":"content-media6",
+            "title":"روز سامسونگ"
+
+        },
+        {
+            "id":7,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/7245fbda8d81ea848d36f7f1bf31fe05fe060365_1730631792.jpg",
+            "alt":"content-media7",
+            "title":"تولد استایل"
+        },
+        {
+            "id":8,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/cc90a533986d6672b68f1f38c8683ef94d74c497_1727699529.png",
+            "alt":"content-media8",
+            "title":"خرید موبایل کار کرده"
+        },
+        {
+            "id":9,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/ad71870b0b05cfac1cf4f4b951ac76230bd638e4_1709020100.png",
+            "alt":"content-media9",
+            "title":"دیجی کالا بیزینس"
+        }
+        
+        
     ]
 }
