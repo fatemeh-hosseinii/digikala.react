@@ -1,0 +1,248 @@
+{
+    "part_navbar":[
+        {
+            "id":1,
+            "name":"دسته بندی",
+            "icon":"part"
+        }
+    ],
+    "Navbar":[
+        {
+            "id":1,
+            "name":"شگفت انگیز",
+            "icon":"amazing"
+
+        },
+        {
+            "id":2,
+            "name":" سوپرمارکت",
+            "icon":"shop"
+
+        },
+        {
+            "id":3,
+            "name":" کارت هدیه",
+            "icon":"giftcart"
+
+        },
+        {
+            "id":4,
+            "name":" پر فروش ترین ",
+            "icon":"buy"
+
+        },
+        {
+            "id":5,
+            "name":"   تخفیف پیشنهادها ",
+            "icon":"discount"
+
+        }
+     
+    ],
+    "story":[
+        {
+            "id":1,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/f902365f861416d81802458471ee0a7731637f80_1730231386.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"live",
+            "title":"ردیاب خریدم 200 تومن !"
+        },
+        {
+            "id":2,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/863cb070cfa89dc20c8bca08fc6b8e823cecd286_1730247169.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media1",
+            "title":"خودتراش چند بار مصرف"
+
+
+        },
+        {
+            "id":3,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/7240b4a08da28615b261db5cf1e3661442f8290a_1730435168.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media2",
+            "title":"ردیاب خریدم 200 تومن !"
+
+            
+        },
+        {
+            "id":4,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/556b9e2d61434ca77cdaacf51235ea1493d7f2eb_1730234214.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media3",
+            "title":"ردیاب خریدم 200 تومن !"
+
+            
+        },
+        {
+            "id":5,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/350c86ec8cb65fe1f313abc13b9f11e982e0c702_1730404232.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media4",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":6,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/8673f0825804f065435fbe909981cdae1a83e426_1730606750.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media5",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":7,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/350c86ec8cb65fe1f313abc13b9f11e982e0c702_1730404232.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media6",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":8,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/7b26727cad62ccf37c35a9ef6fc85b18f1fdde6d_1730383969.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media7",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":9,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/cacd5f4a59378ef17cb5fc7a016d5f94400004ac_1730537778.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media8",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":10,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/ce262dd6e24b6a17d114f9df4f98b65f0792dce3_1730152972.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media9",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":11,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/e84f22576b53361d364d030724bc66be1aa20b08_1730249016.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media10",
+            "title":"مثل ظاهرش عجیب بود"
+
+
+        },
+        {
+            "id":12,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/827e1172384cbccd868b7e872ecc25385f5ebe32_1730874526.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media11",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":13,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/a7232235f9006ec060bda31479787da8249b3ece_1730214419.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media12",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":14,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/50186ee3684480ba994326db12b179b39ba5da30_1729465066.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media13",
+            "title":"مثل ظاهرش عجیب بود"
+
+        },
+        {
+            "id":15,
+            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/5dfd43fd774ec5a41e9ee71d023d6784d92f07ec_1730203243.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+            "alt":"content-media14",
+            "title":"مثل ظاهرش عجیب بود"
+
+        }
+    ],
+    "Slider":[
+        {
+            "id":1,
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/7675d2e04588e1ba27366f98cb70db1a546014b9_1730897171.jpg?x-oss-process=image/quality,q_95/format,webp",
+            "alt":"content-media1"
+        },
+        {
+            "id":2,
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/0a1846ade9c78c8f8dfaae2c1401e08845d71a52_1730898344.jpg?x-oss-process=image/quality,q_95/format,webp",
+            "alt":"content-media1"
+        },
+        {
+            "id":3,
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/b860850c1ca21eb3b525b242e50246fa992c5bb3_1730286974.jpg?x-oss-process=image/quality,q_95/format,webp",
+            "alt":"content-media1"
+        },
+        {
+            "id":4,
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/a1b0fc3244ceabe552175e0434b9ab8eb86c41fe_1730638049.gif?x-oss-process=image?x-oss-process=image/format,webp",
+            "alt":"content-media1"
+        },
+        {
+            "id":5,
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/256ac27eb2198e8fe5d24b2c270b50d704430faf_1730801743.jpg?x-oss-process=image/quality,q_95/format,webp",
+            "alt":"content-media1"
+        },
+        {
+            "id":6,
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/e963342c8b29aed07b51c712da364969b7ce8c9d_1730277682.jpg?x-oss-process=image/quality,q_95/format,webp",
+            "alt":"content-media1"
+        }
+    ],
+    "Information":[
+        {
+            "id":1,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/e4de6f360fcda4f501f21419ba40a100460740cd_1727699701.png",
+            "alt":"content-media1",
+            "title":"دریافت وام"
+
+        },
+        {
+            "id":2,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/e90f351fd01e1f19f9293135d4dc252c052b649b_1730791472.jpg",
+            "alt":"content-media2",
+            "title":"حراج مد و پوشاک"
+
+        },
+        {
+            "id":3,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/c13bd207cfaf3009e063e010dc4234eef96b1d13_1708971660.png",
+            "alt":"content-media3",
+            "title":"جایزه 20 میلیون تومنی"
+
+        },
+        {
+            "id":4,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/9f821d3d47835cbb536cad9a88046e1826186fbc_1730882327.png",
+            "alt":"content-media4",
+            "title":"جدیدترین های ارایشی"
+
+        },
+        {
+            "id":5,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/afb3c938fd3149d7587b59919bfc500a461693a6_1709571657.png",
+            "alt":"content-media5",
+            "title":"سوپرمارکت پر تخفیف"
+
+        },
+        {
+            "id":6,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/897632bd1a31dba6e244c4ff1561c70ee8fd51a7_1730873814.png",
+            "alt":"content-media6",
+            "title":"روز سامسونگ"
+
+        },
+        {
+            "id":7,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/7245fbda8d81ea848d36f7f1bf31fe05fe060365_1730631792.jpg",
+            "alt":"content-media7",
+            "title":"تولد استایل"
+        },
+        {
+            "id":8,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/cc90a533986d6672b68f1f38c8683ef94d74c497_1727699529.png",
+            "alt":"content-media8",
+            "title":"خرید موبایل کار کرده"
+        },
+        {
+            "id":9,
+            "image":"https://dkstatics-public.digikala.com/digikala-bellatrix/ad71870b0b05cfac1cf4f4b951ac76230bd638e4_1709020100.png",
+            "alt":"content-media9",
+            "title":"دیجی کالا بیزینس"
+        }
+        
+        
+    ]
+}
