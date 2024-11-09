@@ -3,9 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import Slideritem from "./Slideritem";
+
+
 import { useEffect } from "react";
-import { fetchpost_two } from "../Redux/SliderSlice";
+
+import Slideritem from "./Slideritem";
+import { fetchpost_two } from "../../Redux/SliderSlice";
 
 const Slider = () => {
     const {slider,loading,error}=useSelector(state=>state.slider)

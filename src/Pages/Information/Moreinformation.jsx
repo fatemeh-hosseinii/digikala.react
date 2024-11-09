@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Icon from 'react-icons-kit';
 import { ic_more_horiz } from 'react-icons-kit/md/ic_more_horiz';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetch_foure, toggleMenu } from '../../Redux/MoreinformationSlice';
+import { closeMenu, fetch_foure, toggleMenu } from '../../Redux/MoreinformationSlice';
 import { ic_close } from 'react-icons-kit/md/ic_close';
 import Moreinfoitem from './Moreinfoitem';
 
@@ -22,19 +22,29 @@ const Moreinformation = () => {
       <p className='text-center text-[12px] mt-2'>بیشتر</p>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center">
-          <div className="absolute inset-0 bg-[#bbbbbb] opacity-35"></div>
-          <div className="relative bg-white opacity-100 overflow-y-hidden rounded-lg z-[100] p-2 flex flex-col justify-between w-[50%]">
+        <div  className="fixed inset-0 z-50 flex flex-col items-center justify-center">
+          <div onClick={()=>dispatch(closeMenu())} className="absolute inset-0  bg-[#bbbbbb] opacity-35"></div>
+          <div className="relative bg-white opacity-100 overflow-y-auto rounded-lg z-[100] p-2 flex flex-col justify-between w-[50%]">
             <div className='flex flex-row justify-between'>
               <p className='font-bold'>خدمات دیجی‌کالا</p>
-              <Icon icon={ic_close} className='text-[#A1A3A8]' size={"28px"} />
+              <button onClick={()=>dispatch(closeMenu())}>
+                <Icon icon={ic_close} className='text-[#A1A3A8]' size={"28px"} />
+              </button>
+             
             </div>
             <hr className='mt-5' />
-            <div className='flex flex-col justify-between items-center overflow-y-auto p-2'>
-              <div className='flex flex-row justify-between flex-wrap gap-5 bg-slate-600 items-center p-2'>
-                {Moreinformation?.map((elem) => (
+            <div className='flex flex-col justify-between items-center overflow-y-auto p-2 max-h-[300px] '>
+              <div className='flex flex-row justify-between flex-wrap gap-5  items-center p-2'>
+              
+                  {Moreinformation?.map((elem) => (
                   <Moreinfoitem key={elem.id} moreinfo={elem} />
-                ))}
+                   ))}  
+              
+                                  
+                 
+              </div>
+              <div className='mt-2'>
+                <p>سرویس گروه دیجی کالا</p>
               </div>
             </div>
           </div>
