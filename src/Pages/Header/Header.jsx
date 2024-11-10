@@ -9,7 +9,7 @@ import Login from "../Login/Login";
 const Header = () => {
     return ( 
         <>
-            <div className="shadow-2xl">
+            <div className="shadow-1-bottom">
                 <a href="">
                     <img className="h-[11vh] w-[100%]" src={imglogo} alt="" />
                 </a>

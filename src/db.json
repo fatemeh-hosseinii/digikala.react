@@ -338,85 +338,314 @@
             "image":"https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"ساعت هوشمند ورنا مدل W45 Max with Airpod به همراه هندزفری بیسیم",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
-
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "sameproduct":[
+                {}
+            ],
+            "feature":[
+                {
+                    "id":1,
+                    "title":"نوع کاربری",
+                    "describtion":"ورزشی، رسمی، روزمره"
+                },
+                {
+                    "id":2,
+                    "title":"فرم صفحه",
+                    "describtion":"مستطیل"
+                },
+                {
+                    "id":3,
+                    "title":"جنس بند",
+                    "describtion":"سیلیکون"
+                }
+            ]
         },
         {
             "id":2,
             "image":"https://dkstatics-public.digikala.com/digikala-products/b9ce58b712ee93b761b2d09d8eda5edd5f0aae5f_1726008333.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"ساعت هوشمند ورنا مدل W45 Max with Airpod به همراه هندزفری بیسیم,",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"           
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"نوع کاربری",
+                    "describtion":"ورزشی، رسمی، روزمره"
+                },
+                {
+                    "id":2,
+                    "title":"فرم صفحه",
+                    "describtion":"مستطیل"
+                },
+                {
+                    "id":3,
+                    "title":"جنس بند",
+                    "describtion":"سیلیکون"
+                }
+            ]
         },
         {
             "id":3,
             "image":"https://dkstatics-public.digikala.com/digikala-products/aba1020a3203ca6a6ecd1a3349c609e3bd83b1eb_1666530452.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"یخچال فریزر خودرو ایستکول مدل TM-4040-DC",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"نوع ",
+                    "describtion":"  لوازم و اتصالات باتری خودرو"
+                },
+                {
+                    "id":2,
+                    "title":" مناسب برای خودرو",
+                    "describtion":"تمام خودروها"
+                }
+                
+            ]
+
+
         },
         {
             "id":4,
             "image":"https://dkstatics-public.digikala.com/digikala-products/53fc85616e1388d6d80dc506738eb0eb8c98a762_1730538685.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"بلوک هیدرولیک ABS کروزپلاس مدل BWi مناسب برای کوییک",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"نوع ",
+                    "describtion":"  لوازم و اتصالات باتری خودرو"
+                },
+                {
+                    "id":2,
+                    "title":" مناسب برای خودرو",
+                    "describtion":"تمام خودروها"
+                }
+                
+            ]
+
+
+
         },
         {
             "id":5,
             "image":"https://dkstatics-public.digikala.com/digikala-products/7a18b6906497c1cc12dba4e25c08fa4491ed7168_1710092047.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"اسپیکر بلوتوثی قابل حمل سونی مدل SRS-XE200",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"نوع ",
+                    "describtion":"  لوازم و اتصالات باتری خودرو"
+                },
+                {
+                    "id":2,
+                    "title":" مناسب برای خودرو",
+                    "describtion":"تمام خودروها"
+                }
+                
+            ]
+
+
+
         },
         {
             "id":6,
             "image":"https://dkstatics-public.digikala.com/digikala-products/30474616ee70431861cf198094731e20699125a4_1709105160.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"اسپیکر بلوتوثی قابل حمل سونی مدل SRS-XG300",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":" نوع اتصال",
+                    "describtion":"  بلوتوث"
+                },
+                {
+                    "id":2,
+                    "title":" رابط‌ها",
+                    "describtion":"Bluetooth"
+                }
+            ]
+
+
         },
         {
             "id":7,
             "image":"https://dkstatics-public.digikala.com/digikala-products/c7a5b9877bfb19c6589958d847fef08e04a70055_1686742545.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"اسپیکر هوشمند  پرووان مدل PSG41",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":" نوع اتصال",
+                    "describtion":"  بلوتوث"
+                },
+                {
+                    "id":2,
+                    "title":" رابط‌ها",
+                    "describtion":"Bluetooth"
+                }
+            ]
+
+
         },
         {
             "id":8,
             "image":"https://dkstatics-public.digikala.com/digikala-products/7077f97d906f519cfaf689d2360319d8a0ce1253_1656411834.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"کفش ساحلی مدل  Yeezy Foam",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":" نوع اتصال",
+                    "describtion":"  بلوتوث"
+                },
+                {
+                    "id":2,
+                    "title":" رابط‌ها",
+                    "describtion":"Bluetooth"
+                }
+            ]
+
+
         },
         {
             "id":9,
             "image":"https://dkstatics-public.digikala.com/digikala-products/470bbbc60cdcc83a5fc2730418df2887c36c5801_1724767290.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"لامپ 12 وات نوردلایت مدل حبابی پایه E27 مجموعه دو عددی",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"  نسخه‌ی بلوتوث",
+                    "describtion":"  4.2"
+                },
+                {
+                    "id":2,
+                    "title":" رابط‌ها",
+                    "describtion":"Bluetooth، AUX"
+                }
+            ]
+
+
         },
         {
             "id":10,
             "image":"https://dkstatics-public.digikala.com/digikala-products/2bf0e69b32a946c26a60b892f5ee2b950ef97ae2_1721490816.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"لامپ ال ای دی 50 وات سایروکس مدل سفینه ای ",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
+
+
         },
         {
             "id":11,
             "image":"https://dkstatics-public.digikala.com/digikala-products/2bf0e69b32a946c26a60b892f5ee2b950ef97ae2_1721490816.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"لامپ ال ای دی 50 وات سایروکس مدل سفینه ای ",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
+
+
         },
         {
             "id":12,
             "image":"https://dkstatics-public.digikala.com/digikala-products/d17c3c680d8ce478513e7ddf08a6c62a1ce15b61_1685717192.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
             "title":"شورت مردانه آوین مدل پادار نخ پنبه کد 32 مجموعه 2 عددی",
             "price":"۴,۱۹۹,۰۰۰",
-            "discount":"۶,۳۰۰,۰۰۰"
+            "discount":"۶,۳۰۰,۰۰۰",
+            "explain":"ورنا / ساعت هوشمند",
+            "rating":"۴.۱",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                }
+
+
+            ]
+
+
         }
     ]
 }

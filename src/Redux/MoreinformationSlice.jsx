@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from 'axios'; // Ensure axios is imported
+import axios from 'axios'; 
 
 export const fetch_foure = createAsyncThunk("Moreinfo/post", async () => {
   const res = await axios.get("http://localhost:3004/Moreinfo");
@@ -9,7 +9,7 @@ export const fetch_foure = createAsyncThunk("Moreinfo/post", async () => {
 const MoreinformationSlice = createSlice({
   name: "Moreinformation",
   initialState: {
-    Moreinformation: [], // Updated to match
+    Moreinformation: [], 
     loading: false,
     error: "",
     isOpen: false,
