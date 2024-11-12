@@ -23,7 +23,43 @@ const Story = () => {
         <Swiper 
         navigation 
         modules={[Navigation]} 
-        slidesPerView={12}
+        breakpoints={{
+            // برای صفحه‌نمایش‌های بزرگتر از 1200px (شما می‌توانید این مقدار را تغییر دهید)
+            1200:{
+                slidesPerView:12,
+            },
+            1100:{
+                slidesPerView:11,
+            },
+            870: {
+                slidesPerView: 8.5,
+              },
+            770: {
+                slidesPerView: 8,
+              },
+            670: {
+                slidesPerView: 6,
+              },
+            600: {
+              slidesPerView: 5.5,
+            },
+            // برای صفحه‌نمایش‌های بزرگتر از 1024px
+            572: {
+              slidesPerView: 5,
+            },
+            // برای صفحه‌نمایش‌های بزرگتر از 768px
+            450: {
+              slidesPerView: 4.5,
+            },
+            // برای صفحه‌نمایش‌های کوچک‌تر از 768px
+            420: {
+              slidesPerView: 4,
+            },
+            // برای صفحه‌نمایش‌های موبایل
+            380: {
+              slidesPerView: 3.5,
+            },
+          }}
         spaceBetween={20}
         className="mt-[20px] "
         >

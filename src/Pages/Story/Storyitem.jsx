@@ -5,7 +5,7 @@ const Storyitem = ({ story }) => {
             <img className="object-cover w-[100%] rounded-full" src={story.image} alt={story.alt} />
             
           </div>
-          <p className="text-center text-[12px] mt-2">{story.title}</p>
+          <p className="text-center xl:text-[12px] text-[10px] mt-2">{story.title}</p>
          
       </div>
   );

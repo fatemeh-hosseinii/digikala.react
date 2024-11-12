@@ -1,8 +1,8 @@
 const Informationitem = ({information}) => {
     return ( <>
     
-        <div className="flex flex-col justify-around items-center w-[10%] p-1">
-            <a href="" className="w-[45%]">
+        <div className="flex flex-col justify-around items-center w-[100%] p-1">
+            <a href="" className="w-[55%]">
             <img src={information.image} className="" alt="" />
             </a>
            
