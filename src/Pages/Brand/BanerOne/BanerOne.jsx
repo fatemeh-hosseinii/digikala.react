@@ -7,7 +7,7 @@ const BanerOne = () => {
     const dispatch=useDispatch()
     useEffect(()=>{
         dispatch(fetchpost_seven())
-    })
+    },[])
     return ( <>
     <div className=" p-5 flex flex-row justify-around">
        {
