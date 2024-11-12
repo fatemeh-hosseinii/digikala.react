@@ -6,6 +6,8 @@ import InformationSlice from "./InformationSlice"
 import MoreinformationSlice from './MoreinformationSlice'
 import AmazingProductSlice from "./AmazingProductSlice"
 import productSlicepartone from "./Showproduct1Slice"
+import AmazingShop from "./AmazingShopSlice"
+import BaneroneSlice from "./BaneroneSlice"
 export const store = configureStore({
   reducer: {
     Navbar:NabarSlice,
@@ -14,7 +16,9 @@ export const store = configureStore({
     information:InformationSlice,
     moreinformation:MoreinformationSlice,
     AmazingProduct:AmazingProductSlice,
-    product:productSlicepartone
+    product:productSlicepartone,
+    AmazingShop:AmazingShop,
+    BaneroneSlice:BaneroneSlice,
     
   },
 })

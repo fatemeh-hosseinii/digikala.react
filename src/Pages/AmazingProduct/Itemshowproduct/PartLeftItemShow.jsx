@@ -147,7 +147,7 @@ const  PartLeftItemShow= ({productshow}) => {
                 </div>
                 <div className="bg-slate-500 mt-5">
                     <p>۵۰۰+ نفر به این کالا علاقه دارند</p>
-                    
+                
                 </div>
            </div>
     
