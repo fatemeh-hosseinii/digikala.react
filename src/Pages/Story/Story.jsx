@@ -24,7 +24,7 @@ const Story = () => {
         navigation 
         modules={[Navigation]} 
         breakpoints={{
-            // برای صفحه‌نمایش‌های بزرگتر از 1200px (شما می‌توانید این مقدار را تغییر دهید)
+        
             1200:{
                 slidesPerView:12,
             },
@@ -43,25 +43,22 @@ const Story = () => {
             600: {
               slidesPerView: 5.5,
             },
-            // برای صفحه‌نمایش‌های بزرگتر از 1024px
+        
             572: {
               slidesPerView: 5,
             },
-            // برای صفحه‌نمایش‌های بزرگتر از 768px
             450: {
               slidesPerView: 4.5,
             },
-            // برای صفحه‌نمایش‌های کوچک‌تر از 768px
             420: {
               slidesPerView: 4,
             },
-            // برای صفحه‌نمایش‌های موبایل
             380: {
               slidesPerView: 3.5,
             },
           }}
         spaceBetween={20}
-        className="mt-[20px] "
+        className="mySwiper mt-[20px] h-[100%] w-[100%] "
         >
             {story?.map((elem) => (
                 <SwiperSlide key={elem.id} className="p-1">

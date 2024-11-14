@@ -7,7 +7,7 @@ export const fetchpost_eight = createAsyncThunk("post/fetch_eight", async () => 
     return res.data;
 });
 
-// Slice definition
+
 const  ProductpackagSlice= createSlice({
     name: "productpackage",
     initialState: {

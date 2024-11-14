@@ -25,7 +25,40 @@ const Information = () => {
             <Swiper 
                 
                 modules={[Navigation]} 
-                slidesPerView={9}
+                breakpoints={{
+        
+                    1200:{
+                        slidesPerView:9,
+                    },
+                    1100:{
+                        slidesPerView:8,
+                    },
+                    870: {
+                        slidesPerView: 8.5,
+                      },
+                    770: {
+                        slidesPerView: 8,
+                      },
+                    670: {
+                        slidesPerView: 6,
+                      },
+                    600: {
+                      slidesPerView: 5.5,
+                    },
+                
+                    572: {
+                      slidesPerView: 5,
+                    },
+                    450: {
+                      slidesPerView: 4.5,
+                    },
+                    420: {
+                      slidesPerView: 4,
+                    },
+                    380: {
+                      slidesPerView: 3.5,
+                    },
+                  }}
                 spaceBetween={20}
                 className="mt-[20px]"
             >

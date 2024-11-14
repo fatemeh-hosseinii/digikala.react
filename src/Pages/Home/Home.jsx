@@ -1,7 +1,10 @@
 
 
+import BanerTwo_PartTwo from "../../BanerTwo_PartTwo/BanerTwo_PartTwo";
 import AmazingProduct from "../AmazingProduct/AmazingProduct";
 import Amazingshop from "../Amazingshop/Amazingshop";
+import Banertwo from "../Banertwo/Banertwo";
+import BestBrand from "../BestBrand/BestBrand";
 import BanerOne from "../Brand/BanerOne/BanerOne";
 
 import Header from "../Header/Header";
@@ -22,6 +25,9 @@ const Home = () => {
             <Amazingshop/>
             <BanerOne/>
             <Productpakaging/>
+            <Banertwo/>
+            <BestBrand/>
+            <BanerTwo_PartTwo/>
             
         </>
      );
