@@ -12,6 +12,7 @@ import ProductpackagSlice from "./ProductpackagSlice"
 import BanerTwoSlice from "./BanertwoSlice"
 import Bestbrand from "./BestbrandSlice"
 import BrandTwoPartTwoSlice from "./BanerTwo_PartTwoSlice"
+import ProductTwo from "./ProductTwoSlice"
 export const store = configureStore({
   reducer: {
     Navbar:NabarSlice,
@@ -26,8 +27,8 @@ export const store = configureStore({
     Productpackag:ProductpackagSlice,
     BanerTwo:BanerTwoSlice,
     Bestbrand:Bestbrand,
-    BrandTwoPartTwoSlice:BrandTwoPartTwoSlice
-
+    BrandTwoPartTwoSlice:BrandTwoPartTwoSlice,
+    ProductTwo:ProductTwo
     
   },
 })

@@ -20,9 +20,9 @@ const AmazingProduct = () => {
     return ( <>
     <div className=" p-5">
 
-        <div className="bg-[#d92f4e] rounded-lg  lg:flex hidden flex-row p-3">
-            <div className="flex flex-col justify-around items-start  w-[20%] p-4">
-                <img src={imgamazing} className="w-[74%]" alt="" />
+        <div className="bg-[#d92f4e] rounded-xl  lg:flex hidden flex-row  justify-center items-center p-2">
+            <div className="flex flex-col justify-around items-center  w-[18%] p-1">
+                <img src={imgamazing} className="w-[50%]" alt="" />
                 <div class="flex items-center right-0 h-6 mt-4">
                     <div class="flex flex-col items-center justify-center bg-white w-[26px] h-[26px] rounded-md">
                         <div class="flex justify-center items-center font-bold text-[15px] text-neutral-800 text-center w-[20px] h-[20px]">
@@ -45,7 +45,7 @@ const AmazingProduct = () => {
                         </div>
                     </div>
                 </div>
-                <img src={imgamazing2}  className="w-[55%] mt-2" alt="" />
+                <img src={imgamazing2}  className="w-[45%] mt-2" alt="" />
                 <a className="flex flex-row  items-center justify-between">
                     <p className="text-[white] text-[12px] mt-1">مشاهده همه</p>
                     <Icon icon={ic_keyboard_arrow_left_twotone} size={"16px"} className="text-[white]" />

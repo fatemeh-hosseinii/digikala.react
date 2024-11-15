@@ -913,13 +913,110 @@
     "two_brand_parttwo":[
         {
             "id":1,
-            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/db2816affd27074ddbbb1ec0c64850a85e8f5054_1731336392.jpg?x-oss-process=image/quality,q_95/format,webp",
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/ba554192058e2030ac2e35925f50f7a8b82e0a3e_1731145659.jpg?x-oss-process=image/quality,q_95/format,webp",
             "alt":"content-media1"
         },
         {
             "id":2,
-            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/db2816affd27074ddbbb1ec0c64850a85e8f5054_1731336392.jpg?x-oss-process=image/quality,q_95/format,webp",
+            "image":"https://dkstatics-public.digikala.com/digikala-adservice-banners/861b81007e139cd992d901ad2b084adb1e487758_1731501421.jpg?x-oss-process=image/quality,q_95/format,webp",
             "alt":"content-media2"
         }
+    ],
+    "ProductTwo":[
+        {   
+            "title":"گوشی موبایل",
+            "id":1,
+            "mobail":[
+                {
+                    "id":1,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/363402de76e2e48c64ff6dada64a49c6386506b6_1730109246.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+            
+                {
+                    "id":2,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/c5de8a24810b061f54bd35379d3d6562bdd8b412_1730109816.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":3,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/8da0ac0e9c414ff6bc745cd6b032ef61e6d93cf1_1730113501.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":4,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/82229ebb4fbe465f907c7078e0542139d865b2d8_1721401058.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                }
+                
+            ]
+        },
+        {   
+            "title":" کیف و کاور گوشی",
+            "id":2,
+            "cover":[
+                {
+                    "id":1,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/86ae4515dac1845cc85c2422ae91c9200083c220_1724488304.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+            
+                {
+                    "id":2,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/c4d094b8c68d5ef3fed78b0c820f59eac57fb7ec_1687728598.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":3,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/54ec6fc3a45562695bdad51c631fa97acdf4e946_1680041310.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":4,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/93f037cf562e67ac8c3eb9ba2d639a9d03d416c1_1603473175.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                }
+                
+            ]
+        },
+        {   
+            "title":"  هدفون، هدست و هندزفری ",
+            "id":3,
+            "hedphone":[
+                {
+                    "id":1,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/e61ec7cf9f4e9c7d1eace93f265f6a73fe96dd5b_1675069514.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+
+                },
+                {
+                    "id":2,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/eef3e87efcc65681b2149503ac36c3cc17a68965_1720944877.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":3,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/5890e7a567c2d2bd4880688f22826175b5a6a0b5_1721134737.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":4,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/56c3e78b6bdcc428768dbaf36771b824d087ba20_1716627007.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                }
+            ]
+        },
+        {
+            "title":"لپ تاپ و الترابوک",
+            "id":4,
+            "labtop":[
+                {
+                    "id":1,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/d5871f987049e67d857cb0f25b199b732b5e3d96_1730199224.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":2,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/f8743c35147efa57a1388e696e6d7451e4a10408_1728381002.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":3,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/d5871f987049e67d857cb0f25b199b732b5e3d96_1730129882.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                },
+                {
+                    "id":4,
+                    "image":"https://dkstatics-public.digikala.com/digikala-products/8e9e4d5f7a1bb10c230a98215ad08f8fef94f71d_1731157533.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+                }
+            ]
+        }
+          
+          
     ]
 }

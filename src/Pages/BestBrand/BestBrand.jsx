@@ -18,28 +18,57 @@ const BestBrand = () => {
     }, [dispatch]);
 
     return (
-        <div className='w-[100%] p-2 mt-10 bg-blue-700 container rounded-lg flex flex-col justify-center border border-2 border-[white]'>
-                <div className='flex flex-row justify-center gap-2 items-center mx-auto bg-blue-400 w-[20%]'>
+        <div className='w-[100%] p-5 mt-10 container gap-3 rounded-lg flex flex-col justify-center lg:border-2 lg:border-[#e1e1e1] border-3 border-[white]'>
+                <div className='flex flex-row justify-center gap-2 items-center mx-auto  lg:w-[20%] w-[50%]'>
                     <Icon icon={ic_grade_outline} className='text-[yellow]' size={24}/>
-                    <p className='text-center text-[19px]'>محبوب ترین برندها</p>
+                    <p className='text-center lg:text-[19px] text-[15px]'>محبوب ترین برندها</p>
                     
                 </div>
                 <Swiper
-                 slidesPerView={9}
-                 spaceBetween={20}
-                navigation={true}
-                modules={[Navigation]} 
-                className="mySwiper w-[100%] h-[100%] mt-2">
-                   {
-                    Bestbrand?.map((elem)=>{
-                        return(
+                    breakpoints={{
+                        1000:{
+                            slidesPerView:9
+                        },
+                        990:{
+                            slidesPerView:8.5
+                        },
+                        880:{
+                            slidesPerView:8
+                        },
+                        770:{
+                            slidesPerView:7
+                        },
+                        660:{
+                            slidesPerView:6.5,
+                        },
+                        590:{
+                            slidesPerView:5.5
+                        },
+                        550:{
+                            slidesPerView:5,
+                        },
+                        480: {
+                        slidesPerView: 4.5,
+                        },
+                        440: {
+                        slidesPerView: 4,
+                        },
+                        380: {
+                        slidesPerView: 3.5,
+                        },
+                    }}
+                    spaceBetween={20}
+                    navigation={true}
+                    modules={[Navigation]}
+                    className="mySwiper w-full h-full mt-2"
+                    >
+                    {Bestbrand?.map((elem) => (
                         <SwiperSlide key={elem.id} className="p-1">
-                            <BestBrandItem BestBrand={elem} />
+                        <BestBrandItem BestBrand={elem} />
                         </SwiperSlide>
-                        )
-                    })
-                   }
+                    ))}
                 </Swiper>
+
 
             
         </div>

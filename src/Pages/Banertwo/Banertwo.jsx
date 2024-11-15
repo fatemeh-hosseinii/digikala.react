@@ -10,9 +10,10 @@ const Banertwo = () => {
     },[])
 
     return ( <>
-        <div className="bg-rose-700 p-4">
+        <div className="= p-4">
 
-            <div className="bg-gray-700 flex flex-row justify-around">
+            <div className="flex flex-row justify-around">
+                
                 {
                     BanerTwo.map((elem)=>{
                        return(

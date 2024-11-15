@@ -1,6 +1,6 @@
 
 
-import BanerTwo_PartTwo from "../../BanerTwo_PartTwo/BanerTwo_PartTwo";
+
 import AmazingProduct from "../AmazingProduct/AmazingProduct";
 import Amazingshop from "../Amazingshop/Amazingshop";
 import Banertwo from "../Banertwo/Banertwo";
@@ -12,7 +12,8 @@ import Information from "../Information/Information";
 import Productpakaging from "../Productpackaging/Productpackaging";
 import Slider from "../Slider/Slider";
 import Story from "../Story/Story";
-
+import BanerTwo_PartTwo from "../BanerTwo_PartTwo/BanerTwo_PartTwo"
+import ProductTwo from "../ProductPartTwo/ProductTwo";
 
 const Home = () => {
     return ( 
@@ -28,6 +29,7 @@ const Home = () => {
             <Banertwo/>
             <BestBrand/>
             <BanerTwo_PartTwo/>
+            <ProductTwo/>
             
         </>
      );
