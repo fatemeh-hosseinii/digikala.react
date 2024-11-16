@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import AmazingProduct from "../AmazingProduct";
 import Show from "../Show";
 
-const Routerproduct = () => {
+const Routerproductone = () => {
     return ( 
         <>
             <Routes>
@@ -15,4 +15,4 @@ const Routerproduct = () => {
      );
 }
  
-export default Routerproduct;
+export default Routerproductone;

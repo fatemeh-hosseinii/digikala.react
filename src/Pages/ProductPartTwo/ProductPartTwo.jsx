@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { fetchpost_twelve } from '../../Redux/ProductTwoSlice';
 import ProductTwoitme from './ProductTwoItem';
 
-const ProductTwo = () => {
+const ProductPartTwo = () => {
     const { ProductTwo, loading, error } = useSelector(state => state.ProductTwo);
     const dispatch = useDispatch();
 
@@ -28,7 +28,7 @@ const ProductTwo = () => {
     );
 };
 
-export default ProductTwo;
+export default ProductPartTwo;
 
 
 

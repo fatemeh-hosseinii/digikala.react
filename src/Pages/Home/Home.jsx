@@ -13,7 +13,7 @@ import Productpakaging from "../Productpackaging/Productpackaging";
 import Slider from "../Slider/Slider";
 import Story from "../Story/Story";
 import BanerTwo_PartTwo from "../BanerTwo_PartTwo/BanerTwo_PartTwo"
-import ProductTwo from "../ProductPartTwo/ProductTwo";
+import ProductTwo from "../ProductPartTwo/ProductPartTwo";
 
 const Home = () => {
     return ( 

@@ -1,14 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import ProductTwo from "../ProductTwo";
-import Showone from "../Showone";
+import ProductPartTwo from "../ProductPartTwo";
+import Showone from "../ShowOne/ShowOne";
 
-const RouterProduct = () => {
+
+
+const RouterProductTwo = () => {
     return (  <>
           <Routes>
-                <Route path="/" element={<ProductTwo/>} />
+                <Route path="/" element={<ProductPartTwo/>} />
                 <Route path="/:id" element={<Showone/>} />
             </Routes>
     </>);
 }
  
-export default RouterProduct;
+export default RouterProductTwo;
