@@ -14,7 +14,8 @@ import Slider from "../Slider/Slider";
 import Story from "../Story/Story";
 import BanerTwo_PartTwo from "../BanerTwo_PartTwo/BanerTwo_PartTwo"
 import ProductTwo from "../ProductPartTwo/ProductPartTwo";
-
+import Digiclub from "../Digiclub/Digiclub";
+import Bestselling from "../Bestselling/Bestselling";
 const Home = () => {
     return ( 
         <>
@@ -30,6 +31,8 @@ const Home = () => {
             <BestBrand/>
             <BanerTwo_PartTwo/>
             <ProductTwo/>
+            <Digiclub/>
+            <Bestselling/>
             
         </>
      );

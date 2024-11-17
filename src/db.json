@@ -1024,87 +1024,725 @@
         {
             "id":1,
             "image":"https://dkstatics-public.digikala.com/digikala-products/363402de76e2e48c64ff6dada64a49c6386506b6_1730109246.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
+            
         },
     
         {
             "id":2,
             "image":"https://dkstatics-public.digikala.com/digikala-products/c5de8a24810b061f54bd35379d3d6562bdd8b412_1730109816.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
+            
 
         },
         {
             "id":3,
             "image":"https://dkstatics-public.digikala.com/digikala-products/8da0ac0e9c414ff6bc745cd6b032ef61e6d93cf1_1730113501.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
 
         },
         {
             "id":4,
             "image":"https://dkstatics-public.digikala.com/digikala-products/82229ebb4fbe465f907c7078e0542139d865b2d8_1721401058.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
 
         },
         {
             "id":5,
             "image":"https://dkstatics-public.digikala.com/digikala-products/86ae4515dac1845cc85c2422ae91c9200083c220_1724488304.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
 
         },
     
         {
             "id":6,
             "image":"https://dkstatics-public.digikala.com/digikala-products/c4d094b8c68d5ef3fed78b0c820f59eac57fb7ec_1687728598.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
 
         },
         {
             "id":7,
             "image":"https://dkstatics-public.digikala.com/digikala-products/54ec6fc3a45562695bdad51c631fa97acdf4e946_1680041310.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
 
         },
         {
             "id":8,
             "image":"https://dkstatics-public.digikala.com/digikala-products/93f037cf562e67ac8c3eb9ba2d639a9d03d416c1_1603473175.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
 
         },
         {
             "id":10,
             "image":"https://dkstatics-public.digikala.com/digikala-products/e61ec7cf9f4e9c7d1eace93f265f6a73fe96dd5b_1675069514.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-            "price":"۴,۱۹۹,۰۰۰"
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
 
 
         },
         {
             "id":11,
-            "image":"https://dkstatics-public.digikala.com/digikala-products/eef3e87efcc65681b2149503ac36c3cc17a68965_1720944877.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+            "image":"https://dkstatics-public.digikala.com/digikala-products/eef3e87efcc65681b2149503ac36c3cc17a68965_1720944877.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
         },
         {
             "id":12,
-            "image":"https://dkstatics-public.digikala.com/digikala-products/5890e7a567c2d2bd4880688f22826175b5a6a0b5_1721134737.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+            "image":"https://dkstatics-public.digikala.com/digikala-products/5890e7a567c2d2bd4880688f22826175b5a6a0b5_1721134737.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
         },
         {
             "id":13,
-            "image":"https://dkstatics-public.digikala.com/digikala-products/56c3e78b6bdcc428768dbaf36771b824d087ba20_1716627007.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+            "image":"https://dkstatics-public.digikala.com/digikala-products/56c3e78b6bdcc428768dbaf36771b824d087ba20_1716627007.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
+            
         },
         {
             "id":14,
-            "image":"https://dkstatics-public.digikala.com/digikala-products/d5871f987049e67d857cb0f25b199b732b5e3d96_1730199224.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+            "image":"https://dkstatics-public.digikala.com/digikala-products/d5871f987049e67d857cb0f25b199b732b5e3d96_1730199224.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
         },
         {
             "id":15,
-            "image":"https://dkstatics-public.digikala.com/digikala-products/f8743c35147efa57a1388e696e6d7451e4a10408_1728381002.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+            "image":"https://dkstatics-public.digikala.com/digikala-products/f8743c35147efa57a1388e696e6d7451e4a10408_1728381002.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
         },
         {
             "id":16,
-            "image":"https://dkstatics-public.digikala.com/digikala-products/d5871f987049e67d857cb0f25b199b732b5e3d96_1730129882.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+            "image":"https://dkstatics-public.digikala.com/digikala-products/d5871f987049e67d857cb0f25b199b732b5e3d96_1730129882.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
         },
         {
             "id":17,
-            "image":"https://dkstatics-public.digikala.com/digikala-products/8e9e4d5f7a1bb10c230a98215ad08f8fef94f71d_1731157533.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+            "image":"https://dkstatics-public.digikala.com/digikala-products/8e9e4d5f7a1bb10c230a98215ad08f8fef94f71d_1731157533.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "price":"۴,۱۹۹,۰۰۰",
+            "explain":"هوآوی/گوشی موبایل هوآوی",
+            "title":"گوشی موبایل هوآوی مدل Pura 70 Ultra دو سیم کارت ظرفیت 512 گیگابایت و رم 16 گیگابایت - به همراه هدفون بلوتوثی هواوی مدل Free buds SE2",
+            "title-en":"Huawei Pura 70 Ultra Dual SIM 512GB And 16GB RAM Mobile Phone - With Huawei Free buds SE2 Bluetooth Headphone",
+            "rating":"۴.۱",
+            "store":"درسا بخش",
+            "pleasent":"۸۲.۶ %",
+            "performance":"عالی",
+            "discount":"۶,۳۰۰,۰۰۰",
+            "feature":[
+                {
+                    "id":1,
+                    "title":"   نوع محصول",
+                    "describtion":"  LED"
+                },
+                {
+                    "id":2,
+                    "title":" نوع لامپ",
+                    "describtion":" ال ای دی"
+                },
+                {
+                    "id":3,
+                    "title":" بازه توان مصرفی",
+                    "describtion":"5.5 تا 10 وات"
+                },
+                {
+                    "id":4,
+                    "title":" رده مصرف انرژی",
+                    "describtion":"A+ "
+                }
+
+            ]
         }
 
-    ] 
+    ] ,
+    "digiclub":[
+        {
+            "id":1,
+            "title":"چرخ و بخت",
+            "image":"https://www.digikala.com/statics/img/png/digiclub/wheel-spinner.webp",
+            "icon":"ic_adjust_twotone"
+        },
+        {
+            "id":2,
+            "title":"ماموریت ها",
+            "image":"https://www.digikala.com/statics/img/png/digiclub/missions.webp",
+            "icon":"pin"
+        },
+        {
+            "id":3,
+            "title":"جایزه ها",
+            "image":"https://www.digikala.com/statics/img/png/digiclub/awards.webp",
+            "icon":"video"
+        }
+    ],
+    "bestselling":[
+        {
+            "id":1,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 2.7 کیلوگرم",
+            "number":"۱",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/428b3e2c583758782183d53231b198c1f2a46d5b_1686053583.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":2,
+            "title":"پاوربانک شیائومی مدل Redmi ظرفیت 20000 میلی آمپرساعت به همراه کابل تبدیل microUSB",
+            "number":"۲",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/114687192.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":3,
+            "title":"گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+            "number":"۳",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/8c776cb3a61dbf955a8f9af271522cd10661bce7_1731419478.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":4,
+            "title":"کنسرو لوبیا چیتی در سس گوجه فرنگی اصالت - 380 گرم",
+            "number":"۴",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/3387674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":5,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۵",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/67cc66a669d011236e5a24bf187c075c1f6c3aee_1686053754.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":6,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۶",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/4780647.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":7,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۷",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/11755d73e41ca36779df0adaef9b6b8575df50eb_1661770459.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+
+        },
+        {
+            "id":8,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۸",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/a71582401ee8ea3a64faacdcb6f6a90af5b0d274_1658206463.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":9,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۹",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/b2d0a98d0c0a42c9af5645136fe0cfc0b47263d9_1731491794.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":10,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۰",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/79614762a83c72827adb5940fee9a27309233426_1661770880.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":11,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۱",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/121654059.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":12,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۲",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/470bbbc60cdcc83a5fc2730418df2887c36c5801_1724767290.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":13,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۳",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/90dcda849a29027a0ce0d725b25e70be14f884c8_1721728621.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":14,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۴",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/69fa9151e2a2d7597f465ff96b02df24a8c287b8_1610542271.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":15,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۵",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/9732c882875b807f0583e20431c5115bb219f2f3_1630240962.png?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":16,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۶",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/0a5e74229cb456ce6689a834c4ba1e566fc03937_1727520302.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":17,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۷",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/5399607.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":18,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۸",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/7c6bda500db84d079b2b4632e2bb9943a6457bc6_1641924552.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        }
+    ]
+
 }

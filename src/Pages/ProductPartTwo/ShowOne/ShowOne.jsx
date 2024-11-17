@@ -5,24 +5,24 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchpost_singleproduct } from '../../../Redux/SingleProductSlice';
+import ItemShowOne from '../ItemShowOne/ItemShowOne';
 
-const Showone = () => {
-
+const ShowOne = () => {
     const { id } = useParams();
     const { SingleProduct, loading, error } = useSelector(state => state.singleproduct);
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(fetchpost_singleproduct(id));  
-    }, [dispatch, id]); 
+        dispatch(fetchpost_singleproduct(id));
+    }, [dispatch, id]);
 
     if (loading) return <div>در حال بارگذاری...</div>;
     if (error) return <div>خطا در بارگذاری محصول: {error.message}</div>;
 
     const product = SingleProduct?.find((elem) => elem.id === id);
-    console.log(product);
-
     
+
+    if (!product) return <div>محصول یافت نشد</div>;
 
     return (
         <div className="mt-3 w-full p-3">
@@ -41,11 +41,9 @@ const Showone = () => {
                     </a>
                 </div>
             </div>
-            <h1>{product.name}</h1>
-            <img src={product.image} alt={product.name} />
-            <p>{product.price}</p>
+            <ItemShowOne product={product} />
         </div>
     );
 };
 
-export default Showone;
+export default ShowOne;

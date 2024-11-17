@@ -9,11 +9,11 @@ const BanerOne = () => {
         dispatch(fetchpost_seven())
     },[])
     return ( <>
-    <div className=" p-5 flex flex-row justify-around">
+    <div className=" p-5 flex lg:flex-row justify-around lg:gap-0  gap-3 flex-wrap">
        {
             BanerOne?.map((elem)=>{
                 return(
-                    <div className="w-[24%]">
+                    <div className="lg:w-[24%] w-[48%]">
                          <img className="rounded-xl" src={elem.image} key={elem.id}/>
                     </div>
                    
