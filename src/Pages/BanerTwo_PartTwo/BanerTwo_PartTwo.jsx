@@ -13,11 +13,11 @@ const BanerTwo_PartTwo = () => {
     return ( <>
         <div className=" p-4">
 
-            <div className=" flex flex-row justify-around">
+            <div className=" flex lg:flex-row flex-col gap-4 justify-around">
                 {
                     BanerTwo_PartTwo.map((elem)=>{
                        return(
-                        <img className="w-[49%] rounded-xl" src={elem.image} alt=""/>
+                        <img className="lg:w-[49%] w-[100%] rounded-xl" src={elem.image} alt=""/>
                        )
                         
                     })

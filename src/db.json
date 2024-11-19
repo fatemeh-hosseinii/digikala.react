@@ -1055,6 +1055,24 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
             
         },
@@ -1093,6 +1111,25 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
             
 
@@ -1131,7 +1168,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
 
         },
         {
@@ -1168,7 +1224,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
 
         },
         {
@@ -1205,7 +1280,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
 
         },
     
@@ -1243,7 +1337,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
 
         },
         {
@@ -1280,7 +1393,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
 
         },
         {
@@ -1317,7 +1449,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
 
         },
         {
@@ -1354,7 +1505,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
 
 
         },
@@ -1392,7 +1562,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
         },
         {
             "id":12,
@@ -1428,7 +1617,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
         },
         {
             "id":13,
@@ -1464,7 +1672,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
             
         },
         {
@@ -1501,7 +1728,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
         },
         {
             "id":15,
@@ -1537,7 +1783,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
         },
         {
             "id":16,
@@ -1573,7 +1838,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+            "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
         },
         {
             "id":17,
@@ -1609,7 +1893,26 @@
                     "describtion":"A+ "
                 }
 
+            ],
+              "color":[
+                {
+                    "id":1,
+                    "color":"Black",
+                    "price":"۶,۳۰۰,۰۰۰"
+
+                },
+                {
+                    "id":2,
+                    "color":"Green",
+                    "price":"۴,۱۹۹,۰۰۰"
+                },
+                {
+                    "id":3,
+                    "color":"white",
+                    "price":"۶,۳۰۰,۰۰۰"
+                }
             ]
+            
         }
 
     ] ,
