@@ -16,6 +16,8 @@ import BanerTwo_PartTwo from "../BanerTwo_PartTwo/BanerTwo_PartTwo"
 import ProductTwo from "../ProductPartTwo/ProductPartTwo";
 import Digiclub from "../Digiclub/Digiclub";
 import Bestselling from "../Bestselling/Bestselling";
+import ProductPartThree from "../ProductPartThree/ProductPartThree";
+import BanerThree from "../BanerThree/BanerThree";
 const Home = () => {
     return ( 
         <>
@@ -33,6 +35,9 @@ const Home = () => {
             <ProductTwo/>
             <Digiclub/>
             <Bestselling/>
+            <ProductPartThree/>
+            <BanerThree/>
+            
             
         </>
      );

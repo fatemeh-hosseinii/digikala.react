@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchpost_singleproduct } from "../../Redux/SingleProductSlice";
 import { useEffect } from "react";
 import DetailsCart from "./DetailsCart";
+import Totalprice from "./Totalprice";
 const Cart = () => {
     const { id } = useParams();
     const { SingleProduct, loading, error } = useSelector(state => state.singleproduct);
@@ -131,6 +132,7 @@ const Cart = () => {
                 </div>
             </div>
             <div className=" bg-[red] w-[30%] ">
+                <Totalprice/>
             </div>
         </div>
 

@@ -17,6 +17,7 @@ import singleproduct from "./SingleProductSlice"
 import Digiclub from "./DigiclubSlice"
 import Bestsell from "./BestsellingSlice"
 import ColorSlice from './ColorSlice'
+import ProductThree from './ProductThreeSlice'
 export const store = configureStore({
   reducer: {
     Navbar:NabarSlice,
@@ -36,8 +37,8 @@ export const store = configureStore({
     singleproduct:singleproduct,
     Digiclub:Digiclub,
     Bestsell:Bestsell,
-    ColorSlice:ColorSlice
- 
+    ColorSlice:ColorSlice,
+    ProductThree:ProductThree,
 
     
   },
