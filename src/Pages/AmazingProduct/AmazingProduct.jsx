@@ -18,7 +18,7 @@ const AmazingProduct = () => {
       dispatch(fetchpost_five())
     },[])
     return ( <>
-    <div className=" p-5">
+    <div className=" p-5">\
 
         <div className="bg-[#d92f4e] rounded-xl  lg:flex hidden flex-row  justify-center items-center p-2">
             <div className="flex flex-col justify-around items-center  w-[18%] p-1">

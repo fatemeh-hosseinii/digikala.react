@@ -5,7 +5,7 @@ import Cart from "../Cart";
 const RouterCart = () => {
     return (
         <Routes>
-            <Route path="/Cart" element={<Cart />} />
+            <Route path="/Cart/*" element={<Cart />} />
         </Routes>
     );
 };
