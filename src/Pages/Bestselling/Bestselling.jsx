@@ -46,7 +46,7 @@ const Bestselling = () => {
                                 <SwiperSlide className="flex flex-col gap-5 justify-center items-center p-2  h-full">
                                     
                                     {
-                                        group.map((elem)=>{
+                                        group.map((elem,elemIndex)=>{
                                             return(
                                                 <>
                                                       <div className=" flex flex-row gap-2 mt-5">
@@ -55,7 +55,7 @@ const Bestselling = () => {
                                                         <span className="text-[#37BFD3] mt-3 text-[28px] font-bold">{elem.number}</span>
                                                         <p className="text-[11px] mt-3 ">  {elem.title} </p>
                                                     </div>  
-                                                    <hr  className="mt-3"/>
+                                                    {elemIndex !== group.length - 1 && <hr className="mt-3" />}
                                                 </>
                                               
                                                  

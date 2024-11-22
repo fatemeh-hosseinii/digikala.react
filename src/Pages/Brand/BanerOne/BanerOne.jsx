@@ -9,7 +9,7 @@ const BanerOne = () => {
         dispatch(fetchpost_seven())
     },[])
     return ( <>
-    <div className=" p-5 flex lg:flex-row justify-around lg:gap-0  gap-3 flex-wrap">
+    <div className=" p-5 flex lg:flex-row  justify-around lg:gap-0  gap-3 flex-wrap">
        {
             BanerOne?.map((elem)=>{
                 return(

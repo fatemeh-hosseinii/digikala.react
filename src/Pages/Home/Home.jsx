@@ -18,6 +18,8 @@ import Digiclub from "../Digiclub/Digiclub";
 import Bestselling from "../Bestselling/Bestselling";
 import ProductPartThree from "../ProductPartThree/ProductPartThree";
 import BanerThree from "../BanerThree/BanerThree";
+import DiscountProduct from "../DiscountProduct/DiscountProduct";
+import News from "../News/News";
 const Home = () => {
     return ( 
         <>
@@ -37,6 +39,8 @@ const Home = () => {
             <Bestselling/>
             <ProductPartThree/>
             <BanerThree/>
+            <DiscountProduct/>
+            <News/>
             
             
         </>

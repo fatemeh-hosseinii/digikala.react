@@ -17,8 +17,8 @@ const ProductPartTwo = () => {
     if (error) return <p>Error: {error.message}</p>;
 
     return (
-        <div className="p-3 bg-slate-950 flex flex-row">
-            <div className='bg-rose-900 flex flex-row rounded-lg border-[#E0E0E2] border-2'>
+        <div className="p-3 flex flex-row">
+            <div className=' flex flex-row rounded-lg border-[#E0E0E2] border-2'>
                 {ProductTwo && ProductTwo.map((product) => (
                     <ProductTwoitme key={product.id} product={product}/>
                 ))}

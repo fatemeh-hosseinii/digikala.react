@@ -3039,6 +3039,231 @@
             
         }
 
+    ],
+    "product_discount":[
+        {
+            "id":1,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/bdb6c80d1f919708a1e63b3e6441aa9dfae6da5b_1731584250.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":2,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/2592462834b52051cdaa5a99b04344b5f2f9de70_1731530237.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":3,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/d8bc8d3739a2d3b0b42d2c8d81721edb67769a57_1663512548.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        }, 
+        {
+            "id":4,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/41c038353ad6d9b76876845f9da5cbf12ed9fb86_1731416795.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        }, 
+        {
+            "id":5,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/75d3d8b8491551805b5fe1c0e9b77154c1c950b5_1727782567.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":6,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/75d3d8b8491551805b5fe1c0e9b77154c1c950b5_1727782567.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":7,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/f6c87243542da2c3a494f38048ed11da5e7f045a_1727262340.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":8,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/be908c704a2e73e620bcb59e1c1c51bdf023c7d4_1727594405.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":9,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/0df81354ae97b6b383b98f078a87eebb0dc89ae4_1730357526.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":10,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/44e2321653353c4be6b61cb95bf899439564e6ee_1688538324.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":11,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/e3b70183359b104fcf644fea7e7268cf1e9af429_1720093054.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":12,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/c7c1ae57c9c7901f0d80f609f3b0a41e8e603526_1731227393.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":13,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/c29fb6aa74fba12979f5281f4f30cdf2c0472694_1731227180.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":14,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/4df6b9d1ec4f36295c40cb95834ae2be1223f6e0_1714152808.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":15,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/002c1a06d44742a31da62140ecf8de7fd5909f19_1720708092.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        },
+        {
+            "id":16,
+            "image":"https://dkstatics-public.digikala.com/digikala-products/4df6b9d1ec4f36295c40cb95834ae2be1223f6e0_1714152808.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+            "price_1":"۶,۳۴۹,۰۰۰",
+            "price_2":"۴۰۰,۰۰۰",
+            "discount":" ۴۲٪"
+        }
+    ],
+    "News":[
+        {
+            "id":1,
+            "title":"ابزار چندکاره سفری گرین لاین مدل Multi Shovel",
+            "number":"۱",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/4146c0f58e1ea1a1b5e1caf594811a1ea121b407_1720362345.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":2,
+            "title":"حوله پالتویی ارغوان طرح گلدوزی رمنس سایز 125",
+            "number":"۲",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/772ed9579ea634c9850ce9862e6b6608b382635b_1702504529.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":3,
+            "title":"نیم بوت مردانه چرم مشهد مدل J6229-091",
+            "number":"۳",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/c6290099f5447232422d4bf0e4ad30660f99806f_1705833634.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":4,
+            "title":"بوت زنانه چرم مشهد مدل j2572",
+            "number":"۴",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/fd5437045636e31ceffa34fae1a86ba74b1a80cb_1699421939.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":5,
+            "title":"روغن موتور اسپیدی مدل Super Power 20W-50 حجم 4 لیتر",
+            "number":"۵",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/f7e48bb104719e90083fa6d2cee6fb53d89f5554_1725093844.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":6,
+            "title":"کتاب معجزه شکرگزاری اثر راندا برن انتشارات نگین ایران ",
+            "number":"۶",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/b4eae1394b650475e0c8ba327cf6563e1b49faa1_1624266602.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":7,
+            "title":"کفش مردانه چرم مشهد مدل J6251-088",
+            "number":"۷",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/8009687942e164d3d8672a4e4318029f44c47be5_1716638687.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+
+        },
+        {
+            "id":8,
+            "title":"کفش روزمره مردانه چرم مشهد مدل J6167-001",
+            "number":"۸",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/4350f4ec84e56399bfc09140b3988395667b8cde_1667656689.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":9,
+            "title":"کفش مردانه چرم مشهد مدل j6173",
+            "number":"۹",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/9475886dea644805e7983c4508d22ec6d8ab7153_1690605150.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":10,
+            "title":"کاپشن زنانه مدل جیب دار",
+            "number":"۱۰",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/df74a97e6d294b33a4ecf5e968bb214e7d68ce64_1728859242.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":11,
+            "title":"بوت زنانه چرم مشهد مدل j2583",
+            "number":"۱۱",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/6ea0d44e76adfbe0c87633ecdf52d5494b25d29c_1686050335.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":12,
+            "title":"نیم سکه طلا بهار آزادی - سکه نیک",
+            "number":"۱۲",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/8af864543df54d1a969b45eb25b25a3e139d06a3_1724752884.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":13,
+            "title":"هودی مردانه نوزده نودیک مدل GK1918 B",
+            "number":"۱۳",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/df49a9d4149e50632c0ff2ff853fe30414b7c361_1636625326.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":14,
+            "title":"ژل شفاف ضد تعریق مردانه کامان مدل Long Lasting حجم 75 میلی لیتر",
+            "number":"۱۴",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/fbb406ad4427f89e41651cf6e0e5f258a0f4a826_1656139874.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":15,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۵",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/45bf059d52a820c852d80602fdedff4ac2b378a6_1699882888.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":16,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۶",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/0a5e74229cb456ce6689a834c4ba1e566fc03937_1727520302.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":17,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۷",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/5399607.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        },
+        {
+            "id":18,
+            "title":"روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر",
+            "number":"۱۸",
+            "image":"https://dkstatics-public.digikala.com/digikala-products/7c6bda500db84d079b2b4632e2bb9943a6457bc6_1641924552.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+        }
     ] 
 
 }

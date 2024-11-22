@@ -58,14 +58,14 @@ const Header = () => {
                 </div>
             </div>     
             <div className="shadow-1-bottom xl:flex flex-col hidden ">
-                <Link to="/">
+                <Link to="">
                     <img className="h-[11vh] w-[100%]" src={imglogo} alt="" />
                 </Link>
                 <div className=" flex flex-row w-[100%] mt-2 ">
                     <div className=" w-[60%] flex flex-row ">
-                        <a href="" className="w-[40%]">
+                        <Link to="" className="w-[40%]">
                         <img src={dglogo} className="w-[90%]" alt="" />
-                        </a> 
+                        </Link> 
                         <div className="w-[95%] rounded-lg  bg-[#F0F0F1] p-3 flex flex-row justify-center gap-3">
                             <Icon icon={search} size={22} className="text-[#b1b1b1] w-[25px]" alt="" />
 

@@ -2,6 +2,7 @@ import Icon from 'react-icons-kit';
 
 import {login} from 'react-icons-kit/iconic/login'
 import {shoppingCart} from 'react-icons-kit/feather/shoppingCart'
+import { Link } from 'react-router-dom';
 const Login = () => {
     return ( 
         <div className="flex flex-row justify-center gap-4 w-[40%] ">
@@ -23,9 +24,9 @@ const Login = () => {
                 <span className="h-[20px] w-[2px] bg-[#c7c8cb]"></span>
             </div>
 
-            <div className='mt-2'>
+            <Link to='/Cart' className='mt-2'>
                 <Icon icon={shoppingCart} size={"26px"} className='text-[#424242]' />
-            </div>
+            </Link>
                    
         </div>
      );

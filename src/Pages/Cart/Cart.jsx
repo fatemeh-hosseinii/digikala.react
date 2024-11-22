@@ -10,6 +10,7 @@ import { fetchpost_singleproduct } from "../../Redux/SingleProductSlice";
 import { useEffect } from "react";
 import DetailsCart from "./DetailsCart";
 import Totalprice from "./Totalprice";
+import TotalTitleprice from "./TotalTitleprice";
 const Cart = () => {
     const { id } = useParams();
     const { SingleProduct, loading, error } = useSelector(state => state.singleproduct);
@@ -60,8 +61,8 @@ const Cart = () => {
 
 
         <hr className="container mt-0"  />
-        <div className="bg-slate-600 flex flex-row gap-7 mt-5 border-2 rounded-lg border-[#E0E0E2] container p-4">
-            <div className=" bg-slate-800 border-2 w-[70%] p-3">
+        <div className=" flex flex-row gap-7 mt-5 rounded-lg  container p-4">
+            <div className="  w-[70%] p-3">
                 <div className=" border-2 flex flex-row rounded-lg border-[#B12BA4] w-[100%] p-2">
                     <div className="w-[50%] flex flex-col bg-[white] p-2 gap-6">
                         <div className="w-[30%]">
@@ -107,7 +108,7 @@ const Cart = () => {
                             </p>
                         </li>
                     </ul>
-                    <div className="bg-[yellow] flex flex-row w-[25%] mt-2 gap-2">
+                    <div className=" flex flex-row w-[25%] mt-2 gap-2">
                         <div className="w-[30%]">
                             <img src={lam} alt="" />
                             
@@ -131,8 +132,9 @@ const Cart = () => {
                     <DetailsCart product={product} key={product.id} />
                 </div>
             </div>
-            <div className=" bg-[red] w-[30%] ">
+            <div className="  flex flex-col w-[30%] ">
                 <Totalprice/>
+                <TotalTitleprice/>
             </div>
         </div>
 
