@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
+
 const DiscountPItem = ({ product }) => {
     return (
+        <Link className=""  to={``} >
         <div className="bg-white ">
             <img
                 src={product.image}
@@ -18,6 +21,7 @@ const DiscountPItem = ({ product }) => {
                 <p className="line-through text-end text-[12px] text-[#E0E0E2]">{product.price_2}</p>
             </div>
         </div>
+      </Link>
     );
 };
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ProductTwoitme = ({ product }) => {
     return (
-        <div className="w-[25%] mx-auto p-2 border-l-2 border-[#E0E0E2]">
+        <div className="lg:w-[25%] w-[100%] mx-auto p-2 border-l-2 border-[#E0E0E2]">
             <div className="flex flex-col mb-4">
                 <p>{product.title}</p>
                 <p className="text-[11px] text-[#c7c8cb]">بر اساس سلیقه شما</p>
@@ -14,7 +14,7 @@ const ProductTwoitme = ({ product }) => {
                 {product.mobail && product.mobail.map((item, index) => (
                 
                     
-                    <Link key={item.id} to={`/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
+                    <Link key={item.id} to={`/products/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
                         <img
                             src={item.image}
                             className="w-full"
@@ -24,7 +24,7 @@ const ProductTwoitme = ({ product }) => {
                 ))}
 
                 {product.cover && product.cover.map((item, index) => (
-                    <Link key={item.id} to={`/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
+                    <Link key={item.id} to={`/products/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
                         <img
                             src={item.image}
                             className="w-full"
@@ -34,7 +34,7 @@ const ProductTwoitme = ({ product }) => {
                 ))}
 
                 {product.hedphone && product.hedphone.map((item, index) => (
-                    <Link key={item.id} to={`/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
+                    <Link key={item.id} to={`/products/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
                         <img
                             src={item.image}
                             className="w-full"
@@ -44,7 +44,7 @@ const ProductTwoitme = ({ product }) => {
                 ))}
                 
                 {product.labtop && product.labtop.map((item, index) => (
-                    <Link key={item.id} to={`/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
+                    <Link key={item.id} to={`/products/productstwo/${item.id}`} className="bg-white p-3 flex-shrink-0 relative">
                         <img
                             src={item.image}
                             className="w-full"
@@ -54,7 +54,7 @@ const ProductTwoitme = ({ product }) => {
                 ))}
             </div>
 
-            <Link to={`/productstwo/${product.id}`} className="flex flex-row justify-center">
+            <Link to={`/products/productstwo/${product.id}`} className="flex flex-row justify-center">
                 <p className="text-[14px] text-[#45C1D3] mt-1">مشاهده</p>
                 <Icon className="text-[#45C1D3]" icon={ic_keyboard_arrow_left} />
             </Link>

@@ -21,6 +21,8 @@ import ProductThree from './ProductThreeSlice'
 import DiscountP from "./DiscountProductSlice"
 import SingleProductPartTwo from './SingleProductPartTwoSlice'
 import News from "./NewsSlice"
+import Cart from "./CartSlice"
+import Article from './ArticleSlice'
 export const store = configureStore({
   reducer: {
     Navbar:NabarSlice,
@@ -44,7 +46,9 @@ export const store = configureStore({
     ProductThree:ProductThree,
     DiscountP:DiscountP,
     SingleProductPartTwo:SingleProductPartTwo,
-    News:News
+    News:News,
+    Cart:Cart,
+    Article:Article
     
   },
 })

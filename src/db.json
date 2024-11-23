@@ -3264,6 +3264,29 @@
             "number":"۱۸",
             "image":"https://dkstatics-public.digikala.com/digikala-products/7c6bda500db84d079b2b4632e2bb9943a6457bc6_1641924552.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
         }
-    ] 
+    ],
+    "Article":[
+        {
+            "id":1,
+            "image":"https://www.digikala.com/mag/wp-content/uploads/2024/11/iran-movie-news.jpg",
+            "title":"اخبار هفتگی سینمای ایران و شبکه نمایش خانگی در یک نگاه (هفته‌ چهارم آبان ۱۴۰۳)"
+        },
+        {
+            "id":2,
+            "image":"https://www.digikala.com/mag/wp-content/uploads/2024/11/Black_Friday_shopping-watches.jpg",
+            "title":"۷ ساعت مچی زنانه که در بلک فرایدی دیجی کالا  ارزش خرید دارد"
+        },
+        {
+            "id":3,
+            "image":"https://www.digikala.com/mag/wp-content/uploads/2024/11/non-inventory-in-black-friday.jpg",
+            "title":"با خرید کارت هدیه بلک فرایدی ۱۴۰۳ دیجی‌کالا، با یک تیر دو نشان بزنید"
+        },
+        {
+            "id":4,
+            "image":"https://www.digikala.com/mag/wp-content/uploads/2024/11/Mag_Black_Friday_template-copy.jpg",
+            "title":"۵ ساعت هوشمند برتر که در بلک فرایدی ۱۴۰۳ می‌توانید بخرید"
+        }
+
+    ]
 
 }

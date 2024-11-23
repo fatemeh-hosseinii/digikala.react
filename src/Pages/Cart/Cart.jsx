@@ -5,32 +5,18 @@ import { ic_navigate_before_twotone } from 'react-icons-kit/md/ic_navigate_befor
 import lam from "../../Media/lam.png"
 import spicker from '../../Media/spicker.png'
 import hedphone from "../../Media/hedphone.png"
-import { useDispatch, useSelector } from "react-redux";
-import { fetchpost_singleproduct } from "../../Redux/SingleProductSlice";
-import { useEffect } from "react";
-import DetailsCart from "./DetailsCart";
+import DetailsCart from './DetailsCart'
 import Totalprice from "./Totalprice";
 import TotalTitleprice from "./TotalTitleprice";
+import { useSelector } from "react-redux";
 const Cart = () => {
-    const { id } = useParams();
-    const { SingleProduct, loading, error } = useSelector(state => state.singleproduct);
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(fetchpost_singleproduct(id));
-    }, [dispatch, id]);
-
-    if (loading) return <div>در حال بارگذاری...</div>;
-    if (error) return <div>خطا در بارگذاری محصول: {error.message}</div>;
-
-    const product = SingleProduct?.find((elem) => elem.id === id);
-    
-
-    if (!product) return <div>محصول یافت نشد</div>;
+   
 
    const location = useLocation();
-   const defaultActive = location.pathname.startsWith('/productstwo/Cart');
-//    const product = SingleProduct?.find((elem) => elem.id === id);
+   const defaultActive = location.pathname.startsWith('/Cart');
+   const{items}=useSelector(state=>state.Cart)
+   console.log("i",items);
+   
 
   return (
     <>
@@ -56,7 +42,7 @@ const Cart = () => {
             >
                 <p className="mt-3">بعدی</p>
             </NavLink>
-        </nav>
+    </nav>
 
 
 
@@ -129,7 +115,12 @@ const Cart = () => {
                 <div className=" border-2 flex flex-col gap-2 border-[#c7c8cb] rounded-lg mt-5 p-3">
                     <p className="text-[black] font-bold">سبد خرید شما</p>
                     <p className="text-[#85879A] text-[12px]">۱ کالا</p>
-                    <DetailsCart product={product} key={product.id} />
+                    {
+                        items?.map((elem)=>{
+                           return <DetailsCart product={elem} index={elem.id} key={elem.id}/>
+                        })
+                    }
+                    
                 </div>
             </div>
             <div className="  flex flex-col w-[30%] ">
@@ -145,3 +136,4 @@ const Cart = () => {
   );
 };
 export default Cart;
+

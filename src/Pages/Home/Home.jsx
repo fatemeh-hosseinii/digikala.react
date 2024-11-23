@@ -20,6 +20,8 @@ import ProductPartThree from "../ProductPartThree/ProductPartThree";
 import BanerThree from "../BanerThree/BanerThree";
 import DiscountProduct from "../DiscountProduct/DiscountProduct";
 import News from "../News/News";
+import Article from "../Article/Article";
+import Footer from "../Footer/Footer";
 const Home = () => {
     return ( 
         <>
@@ -41,7 +43,8 @@ const Home = () => {
             <BanerThree/>
             <DiscountProduct/>
             <News/>
-            
+            <Article/>
+            <Footer/>
             
         </>
      );

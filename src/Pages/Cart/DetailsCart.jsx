@@ -7,10 +7,14 @@ import {androidCar} from 'react-icons-kit/ionicons/androidCar'
 import { ic_navigate_before_twotone } from 'react-icons-kit/md/ic_navigate_before_twotone';
 
 import Icon from "react-icons-kit";
-const DetailsCart = ({product}) => {
+const DetailsCart = ({product,index }) => {
+    console.log( "p",product);
+   
+    
+    
     return (
         <>
-            <div className="flex flex-col">
+            <div className="flex flex-col ">
                 <div className=" p-2">
                     <div className=" mt-2 flex flex-row">
                             <div className="w-[20%]  flex flex-col p-">
@@ -72,13 +76,14 @@ const DetailsCart = ({product}) => {
                 </div>
                <div className="flex flex-row justify-end">
                 <div className="flex flex-row">
-                    <p className="text-[13px] text-[#3EBFD6] mt-1">انتقال به خرید بعدی</p>
-                    <Icon className="text-[#3EBFD6]" icon={ic_navigate_before_twotone} size={22} />
+                    <p className="text-[13px] text-[#3EBFD6] font-bold mt-1">انتقال به خرید بعدی</p>
+                    <Icon className="text-[#3EBFD6] font-bold" icon={ic_navigate_before_twotone} size={22} />
                 </div>
                        
                </div>
               
             </div>
+         
         </>
       );
 }

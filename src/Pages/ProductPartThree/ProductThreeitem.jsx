@@ -17,7 +17,7 @@ const ProductThreeitem = ({ product }) => {
                             key={item.id}
                             className="bg-white p-3 flex-shrink-0 relative"
                         >
-                            <Link to={`/productthree/${item.id}`} className="block">
+                            <Link to={`/products/productthree/${item.id}`} className="block">
                                 <img
                                     src={item.image}
                                     className="w-full"
@@ -32,7 +32,7 @@ const ProductThreeitem = ({ product }) => {
                             key={item.id}
                             className="bg-white p-3 flex-shrink-0 relative"
                         >
-                            <Link to={`/productthree/${item.id}`} className="block">
+                            <Link to={`/products/productthree/${item.id}`} className="block">
                                 <img
                                     src={item.image}
                                     className="w-full"
@@ -47,7 +47,7 @@ const ProductThreeitem = ({ product }) => {
                             key={item.id}
                             className="bg-white p-3 flex-shrink-0 relative"
                         >
-                            <Link to={`/productthree/${item.id}`} className="block">
+                            <Link to={`/products/productthree/${item.id}`} className="block">
                                 <img
                                     src={item.image}
                                     className="w-full"
@@ -62,7 +62,7 @@ const ProductThreeitem = ({ product }) => {
                             key={item.id}
                             className="bg-white p-3 flex-shrink-0 relative"
                         >
-                            <Link to={`/productthree/${item.id}`} className="block">
+                            <Link to={`/products/productthree/${item.id}`} className="block">
                                 <img
                                     src={item.image}
                                     className="w-full"
@@ -74,7 +74,7 @@ const ProductThreeitem = ({ product }) => {
                 </div>
 
                 {/* لینک مشاهده */}
-                <Link to={`/productstwo/${product.id}`} className="flex flex-row justify-center">
+                <Link to={`/products/productstwo/${product.id}`} className="flex flex-row justify-center">
                     <p className="text-[14px] text-[#45C1D3] mt-1">مشاهده</p>
                     <Icon className="text-[#45C1D3]" icon={ic_keyboard_arrow_left} />
                 </Link>

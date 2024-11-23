@@ -18,7 +18,7 @@ const ProductPartTwo = () => {
 
     return (
         <div className="p-3 flex flex-row">
-            <div className=' flex flex-row rounded-lg border-[#E0E0E2] border-2'>
+            <div className='flex lg:flex-row sm:mx-auto lg:mx-0 flex-col rounded-lg border-[#E0E0E2] border-2'>
                 {ProductTwo && ProductTwo.map((product) => (
                     <ProductTwoitme key={product.id} product={product}/>
                 ))}

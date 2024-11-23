@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const AmazingDtails = ({product}) => {
     return ( <>
-    <Link className="" to={`/productsone/${product.id}`} >
+    <Link className=""  to={`/products/productsone/${product.id}`} >
          <div className="flex flex-col justify-between items-center">
             <img src={product.image} alt="" />
             <p className="text-[11px] line-clamp-2 mt-5">{product.title}</p>

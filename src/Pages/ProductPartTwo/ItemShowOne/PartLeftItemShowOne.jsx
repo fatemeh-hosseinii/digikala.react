@@ -9,16 +9,27 @@ import {androidCar} from 'react-icons-kit/ionicons/androidCar'
 import pointclub from "../../../Media/club-point.png"
 import { selectColor, setPrice } from "../../../Redux/ColorSlice"; 
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { addToCart } from "../../../Redux/CartSlice";
 
 const PartLeftItemShowOne = ({ productshowone }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate(); 
+
   const { selectedColor, selectedPrice } = useSelector(state => state.ColorSlice);
 
   const handleColorClick = (color, price) => {
     dispatch(selectColor(color));
     dispatch(setPrice(price));
   };
+  const handleAddToCart = () => {
+    console.log('Adding to cart:', productshowone); 
+    dispatch(addToCart(productshowone));
+    navigate('/Cart'); 
+
+  };
+  
+  
 
   return (
     <>
@@ -142,10 +153,14 @@ const PartLeftItemShowOne = ({ productshowone }) => {
         <div className="bg-slate-500 mt-5">
           <p className="text-[12px]">۵۰۰+ نفر به این کالا علاقه دارند</p>
         </div>
-        <div className="mt-4 w-[100%] py-3 bg-[#ef4056] rounded-lg">
-          <Link  to={`/productstwo/Cart/${productshowone.id}`}  className="w-[100%] py-3 bg-[#ef4056] rounded-lg">
-            <p className="text-[12px] font-bold text-white text-center">افزودن به سبد</p>
-          </Link>
+        <div className="mt-4 w-[100%] py-1 bg-[#ef4056] rounded-lg">
+        <div
+          onClick={handleAddToCart}
+          className="mt-1 p-2 w-[100%]  bg-[#ef4056] rounded-lg cursor-pointer"
+        >
+          <p className="text-[12px] font-bold text-white text-center">افزودن به سبد</p>
+        </div>
+
         </div>
         <div className="flex flex-row gap-3 mt-2">
           <Icon icon={ic_verified_user_outline} size={20} />
