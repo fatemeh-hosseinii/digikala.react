@@ -2,71 +2,67 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchpost_one } from "../../Redux/StorySlice";
 import Storyitem from "./Storyitem";
-import { Swiper, SwiperSlide } from 'swiper/react'; 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
-import"./Story.module.css"
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import "./Story.module.css";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const Story = () => {
-    const { story, loading, error } = useSelector(state => state.story);
-    const dispatch = useDispatch();
+  const { story, loading, error } = useSelector((state) => state.story);
+  const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(fetchpost_one());
-    }, [dispatch]);
+  useEffect(() => {
+    setTimeout(() => {
+      dispatch(fetchpost_one());
+    }, 2000);
+  }, [dispatch]);
 
-    if (loading) return <p aria-live="polite">Loading...</p>;
-    if (error) return <p aria-live="assertive">Error occurred: {error}</p>;
+  if (error) return <p aria-live="assertive">Error occurred: {error}</p>;
 
-    return (
-        <Swiper 
-        navigation 
-        modules={[Navigation]} 
-        breakpoints={{
-        
-            1200:{
-                slidesPerView:12,
-            },
-            1100:{
-                slidesPerView:11,
-            },
-            870: {
-                slidesPerView: 8.5,
-              },
-            770: {
-                slidesPerView: 8,
-              },
-            670: {
-                slidesPerView: 6,
-              },
-            600: {
-              slidesPerView: 5.5,
-            },
-        
-            572: {
-              slidesPerView: 5,
-            },
-            450: {
-              slidesPerView: 4.5,
-            },
-            420: {
-              slidesPerView: 4,
-            },
-            380: {
-              slidesPerView: 3.5,
-            },
+  return (
+    <div className="mySwiper mt-[20px] h-[100%] w-[100%]">
+      {loading ? (
+        <div className="flex gap-8">
+          {/* تعداد اسکلتون‌ها متناسب با تعداد اسلایدها */}
+          {Array.from({ length:12 }).map((index) => (
+            <div key={index} className="flex flex-col items-center">
+              {/* اسکلتون دایره‌ای برای عکس */}
+              <Skeleton circle={true} height={80} width={80} />
+              {/* اسکلتون معمولی برای متن */}
+              <Skeleton width={60} height={10} style={{ marginTop: "8px" }} />
+            </div>
+          ))}
+        </div>
+      ) : (
+        <Swiper
+          navigation
+          modules={[Navigation]}
+          breakpoints={{
+            1200: { slidesPerView: 12 },
+            1100: { slidesPerView: 11 },
+            870: { slidesPerView: 8.5 },
+            770: { slidesPerView: 8 },
+            670: { slidesPerView: 6 },
+            600: { slidesPerView: 5.5 },
+            572: { slidesPerView: 5 },
+            450: { slidesPerView: 4.5 },
+            420: { slidesPerView: 4 },
+            380: { slidesPerView: 3.5 },
           }}
-        spaceBetween={20}
-        className="mySwiper mt-[20px] h-[100%] w-[100%] "
+          spaceBetween={20}
         >
-            {story?.map((elem) => (
-                <SwiperSlide key={elem.id} className="p-1">
-                    <Storyitem story={elem} />
-                </SwiperSlide>
-            ))}
+          {story?.map((elem) => (
+            <SwiperSlide key={elem.id} className="p-1">
+              <Storyitem story={elem} />
+            </SwiperSlide>
+          ))}
         </Swiper>
-    );
+      )}
+    </div>
+  );
 };
 
 export default Story;

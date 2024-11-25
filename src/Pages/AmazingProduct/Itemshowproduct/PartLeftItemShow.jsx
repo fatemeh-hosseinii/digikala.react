@@ -1,12 +1,20 @@
 import Icon from "react-icons-kit";
 import {ic_star} from 'react-icons-kit/md/ic_star'
 import {ic_navigate_before_twotone} from 'react-icons-kit/md/ic_navigate_before_twotone'
-import { homeOutline } from 'react-icons-kit/typicons/homeOutline';
 import {ic_store_outline} from 'react-icons-kit/md/ic_store_outline'
 import free_delivery from "../../../Media/free-delivery.png"
 import {ic_error_outline_twotone} from 'react-icons-kit/md/ic_error_outline_twotone'
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../../Redux/CartSlice";
+import { useNavigate } from "react-router-dom";
 
 const  PartLeftItemShow= ({productshow}) => {
+    const dispatch=useDispatch()
+    const navigate=useNavigate()
+    const handle=()=>{
+        dispatch(addToCart(productshow))
+        navigate('/Cart')
+    }
     return ( <>
                   <div className="w-[65%] ">
                 <div className="flex flex-col p-2 gap-3">
@@ -146,9 +154,18 @@ const  PartLeftItemShow= ({productshow}) => {
                     </div>
                 </div>
                 <div className="bg-slate-500 mt-5">
-                    <p>۵۰۰+ نفر به این کالا علاقه دارند</p>
-                
+                    <p className="text-[12px]">۵۰۰+ نفر به این کالا علاقه دارند</p>
                 </div>
+                <div className="mt-4 w-[100%] py-1 bg-[#ef4056] rounded-lg">
+                    <div
+                    onClick={handle}
+                    className="mt-1 p-2 w-[100%]  bg-[#ef4056] rounded-lg cursor-pointer"
+                    >
+                    <p className="text-[12px] font-bold text-white text-center">افزودن به سبد</p>
+                    </div>
+
+                </div>
+                
            </div>
     
     </> );

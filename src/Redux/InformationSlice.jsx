@@ -10,7 +10,7 @@ const InformationSlice = createSlice({
     name: "information",
     initialState: {
         information: [],
-        loading: false,
+        loading: true,
         error: ""
     },
     extraReducers: (builder) => {
