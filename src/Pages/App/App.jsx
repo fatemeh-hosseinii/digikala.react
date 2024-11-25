@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 import Routerproductone from "../AmazingProduct/Routerproductone/Routerproductone";
 import RouterProductTwo from "../ProductPartTwo/RouterProductTwo/RouterProductTwo";
 import RouterProductThree from "../ProductPartThree/RouterProductThree/RouterProductThree";
-import Products from "../Products/Products"; // والد محصولات
+import Products from "../Products/Products";
 import Cart from "../Cart/Cart";
 
 

@@ -22,13 +22,13 @@ const News = () => {
     return ( <>
         <div className="p-3">
             <div className=" rounded-lg p-4 flex flex-col border-2 border-[#F0F0F1]">
-                <div className=" w-[100%] flex flex-row justify-center ">
+                <div className=" w-[100%] flex flex-row justify-center bg-[pink] ">
                     
-                        <div className=" flex flex-row gap-2  w-[25%] text-center">
-                        <h2 className="text-[20px]">داغ ترین چند ساعت گذشته</h2>
-                        <Icon icon={ic_local_fire_department} className="text-[yellow]" size={20}/>
+                  <div className=" flex flex-row gap-2 bg-[blue] justify-center   lg:w-[25%] w-[60%] text-center">
+                    <h2 className="lg:text-[20px] text-[11px]">داغ ترین چند ساعت گذشته</h2>
+                    <Icon icon={ic_local_fire_department} className="text-[yellow]" size={20}/>
 
-                        </div>
+                  </div>
                        
                    
                   
@@ -36,7 +36,30 @@ const News = () => {
                 
                 <Swiper 
                      modules={[Navigation]}
-                     slidesPerView={4}
+                    //  slidesPerView={4}
+                    breakpoints={{
+        
+                      
+                      870: {
+                          slidesPerView: 4,
+                      },
+                      770: {
+                          slidesPerView: 3.5,
+                        },
+                      660: {
+                        slidesPerView: 3,
+                      },
+                      550:{
+                        slidesPerView:2.5  
+                      },
+                      450: {
+                        slidesPerView:2,
+                      },
+                    
+                      380: {
+                        slidesPerView: 1.5,
+                      },
+                    }}
                      spaceBetween={20}
                      navigation
                     className="mySwiper mt-[20px] h-[100%] w-[100%] "
@@ -46,7 +69,29 @@ const News = () => {
                             return(
                                 <Swiper 
                                 modules={[Navigation]}
-                                slidesPerView={4}
+                                breakpoints={{
+        
+                      
+                                  870: {
+                                      slidesPerView: 4,
+                                  },
+                                  770: {
+                                      slidesPerView: 3.5,
+                                    },
+                                  660: {
+                                    slidesPerView: 3,
+                                  },
+                                  550:{
+                                    slidesPerView:2.5  
+                                  },
+                                  450: {
+                                    slidesPerView:2,
+                                  },
+                                
+                                  380: {
+                                    slidesPerView: 1.5,
+                                  },
+                                }}
                                 spaceBetween={20}
                                 navigation
                                 className="mySwiper mt-[20px] h-[100%] w-[100%]"

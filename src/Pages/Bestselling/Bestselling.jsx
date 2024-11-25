@@ -28,7 +28,7 @@ const Bestselling = () => {
                         <h2 className="lg:text-[20px] text-[15px]">پر فروش ترین کالاها</h2>
                         <Icon  icon={ic_local_fire_department} className="text-[yellow]" size={20}/>
                     </div>
-                    <div className="bg-[red] lg:block hidden">
+                    <div className=" lg:block hidden">
                         <p className="text-[#37BFD3] text-[10px]">مشاهده همه</p>
                     </div>
                 </div>
@@ -37,35 +37,22 @@ const Bestselling = () => {
                      modules={[Navigation]}
                     
                      breakpoints={{
-        
-                        // 1200:{
-                        //     slidesPerView:12,
-                        // },
-                        // 1100:{
-                        //     slidesPerView:11,
-                        // },
-                        // 870: {
-                        //     slidesPerView: 8.5,
-                        //   },
-                        // 770: {
-                        //     slidesPerView: 8,
-                        //   },
-                        // 670: {
-                        //     slidesPerView: 6,
-                        //   },
-                        // 600: {
-                        //   slidesPerView: 5.5,
-                        // },
-                    
-                        // 572: {
-                        //   slidesPerView: 5,
-                        // },
-                        // 450: {
-                        //   slidesPerView: 4.5,
-                        // },
-                        580: {
-                          slidesPerView: 2,
+                        870: {
+                            slidesPerView: 4,
                         },
+                        770: {
+                            slidesPerView: 3.5,
+                          },
+                        660: {
+                          slidesPerView: 3,
+                        },
+                        550:{
+                          slidesPerView:2.5  
+                        },
+                        450: {
+                          slidesPerView:2,
+                        },
+                      
                         380: {
                           slidesPerView: 1.5,
                         },

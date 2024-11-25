@@ -10,6 +10,10 @@ import Login from "../Login/Login";
 import {location} from 'react-icons-kit/oct/location'
 import {ic_navigate_before_twotone} from 'react-icons-kit/md/ic_navigate_before_twotone'
 
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+
+
 import { Link } from "react-router-dom";
 const Header = () => {
     

@@ -12,13 +12,16 @@ const DigiclubItem = ({digiclub}) => {
      const SelectedIcon = digiclub.icon ? iconMapping[digiclub.icon] : null;
     return ( <>
      
-     <div className=" flex flex-row w-[32%] justify-between p-1  bg-white rounded-lg"> 
-            <div className='flex flex-row mt-4'>
-            {SelectedIcon && <span className=" w-8 flex justify-center ">{SelectedIcon}</span>}
-            <p className="text-[12px] text-[#0C3691] mt-1">{digiclub.title}</p> 
+     <div className=" flex flex-row w-[32%] justify-between p-1  bg-[white] rounded-lg"> 
+        <div className=' lg:w-[40%] w-[55%] bg-[red]'>
+            <div className='flex flex-row mt-4 gap-2 bg-[black]'>
+                    {SelectedIcon && <span className=" lg:w-8 w-[15px] bg-[blue] flex justify-center ">{SelectedIcon}</span>}
+                    <p className="lg:text-[12px] text-[8px] text-[#0C3691] mt-1">{digiclub.title}</p> 
             </div>
+        </div>
+            
            
-            <img className='w-[48%]' src={digiclub.image} alt="" />
+            <img className='lg:w-[48%] w-[50%] ' src={digiclub.image} alt="" />
     </div>
     </> );
 }
