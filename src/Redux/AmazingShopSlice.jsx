@@ -10,7 +10,7 @@ const  AmazingShopSlice= createSlice({
     name: "AmazingShop",
     initialState: {
         AmazingShop: [],
-        loading: false,
+        loading: true,
         error: ""
     },
     extraReducers: (builder) => {

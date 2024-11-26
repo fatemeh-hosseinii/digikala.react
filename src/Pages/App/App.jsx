@@ -14,12 +14,11 @@ const App = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="products" element={<Products />}>
-                    <Route path="productsone/*" element={<Routerproductone />} />
-                    <Route path="productstwo/*" element={<RouterProductTwo />} />
-                    <Route path="productthree/*" element={<RouterProductThree />} />
-                </Route>
-                {/* Add the Cart route with a wildcard */}
+                    <Route path="products" element={<Products />}>
+                        <Route path="productsone/*" element={<Routerproductone />} />
+                        <Route path="productstwo/*" element={<RouterProductTwo />} />
+                        <Route path="productthree/*" element={<RouterProductThree />} />
+                    </Route>
                 <Route path="/Cart/*" element={<Cart />} />
             </Routes>
         </BrowserRouter>

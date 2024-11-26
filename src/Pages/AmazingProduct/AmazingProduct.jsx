@@ -11,15 +11,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import resamazing from  "../../Media/incredibleres.png"
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
+
 const AmazingProduct = () => {
     const {AmazingProduct,loading,error}=useSelector(state=>state.AmazingProduct)
     const dispatch=useDispatch()
     useEffect(()=>{
-      dispatch(fetchpost_five())
+    setTimeout(()=>{
+        dispatch(fetchpost_five())
+    },2000)
     },[])
     return ( <>
     <div className=" p-5">
-
         <div className="bg-[#d92f4e] rounded-xl  lg:flex hidden flex-row  justify-center items-center p-2">
             <div className="flex flex-col justify-around items-center  w-[18%] p-1">
                 <img src={imgamazing} className="w-[50%]" alt="" />
@@ -51,7 +55,22 @@ const AmazingProduct = () => {
                     <Icon icon={ic_keyboard_arrow_left_twotone} size={"16px"} className="text-[white]" />
                 </a>
             </div>
-            <Swiper 
+        {loading ? (
+            <>
+            <div className="flex  gap-3">
+                {Array.from({ length:7 }).map((index) => (
+                    <div key={index} className="flex flex-col items-center">
+                    <Skeleton  height={230} width={150} />
+        
+                    </div>
+                ))}
+            </div>
+            
+            </>
+       
+        
+      ) : (
+        <Swiper 
                 navigation 
                 modules={[Navigation]} 
                 slidesPerView={7}
@@ -64,6 +83,8 @@ const AmazingProduct = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+      )}
+           
         </div>
 
 

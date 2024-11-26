@@ -10,7 +10,7 @@ const  BaneroneSlice= createSlice({
     name: "BanerOne",
     initialState: {
         BanerOne: [],
-        loading: false,
+        loading: true,
         error: ""
     },
     extraReducers: (builder) => {
