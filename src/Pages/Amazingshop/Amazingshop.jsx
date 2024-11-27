@@ -45,9 +45,9 @@ if (erorr) return <p>Error: {erorr}</p>;
                         
                         
                         </div>
-                        <div className=" lg:w-[50%] md:w-[45%] w-[65%] flex flex-row justify-between bg-rose-800" >
+                        <div className=" lg:w-[50%] md:w-[45%] w-[65%] flex flex-row justify-between" >
                         
-                            <div className=" flex lg:flex-row flex-wrap lg:gap-5 gap-3 bg-slate-950">
+                            <div className=" flex lg:flex-row flex-wrap lg:gap-5 gap-3 ">
                             {
                                 loading ? (
                                     <div className="flex gap-6">

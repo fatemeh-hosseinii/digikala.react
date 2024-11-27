@@ -3287,6 +3287,129 @@
             "title":"۵ ساعت هوشمند برتر که در بلک فرایدی ۱۴۰۳ می‌توانید بخرید"
         }
 
+    ],
+    "footer":[
+      {
+        "id":1,
+        "name":"contact",
+        "contact":[
+            {
+                "id":1,
+                "title":"تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱"
+            },
+            {
+                "id":2,
+                "title":"۰۲۱-۹۱۰۰۰۱۰۰"
+            },
+            {
+                "id":3,
+                "title":"۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم"
+            }
+        ]
+      },
+      {
+        "id":2,
+        "name":"baner",
+        "baner_footer":[
+            {
+                "id":1,
+                "title":"اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس",
+                "image":"https://www.digikala.com/statics/img/svg/footer/express-delivery.svg"
+            },
+            {
+                "id":2,
+                "title":"امکان پرداخت در محل",
+                "image":"https://www.digikala.com/statics/img/svg/footer/cash-on-delivery.svg"
+            },
+            {
+                "id":3,
+                "title":"۷ روز ﻫﻔﺘﻪ، ۲۴ ﺳﺎﻋﺘﻪ",
+                "image":"https://www.digikala.com/statics/img/svg/footer/support.svg"
+            },
+            {
+                "id":4,
+                "title":"هفت روز ضمانت بازگشت کالا",
+                "image":"https://www.digikala.com/statics/img/svg/footer/days-return.svg"
+            },
+            {
+                "id":5,
+                "title":"ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ",
+                "image":"https://www.digikala.com/statics/img/svg/footer/original-products.svg"
+            }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "List",
+        "lists": [
+          {
+            "id": 1,
+            "title": "با دیجی کالا",
+            "items": [
+              { "id": 1, "title": "اتاق خبر دیجی‌کالا" },
+              { "id": 2, "title": "فروش در دیجی‌کالا" },
+              { "id": 3, "title": "فرصت‌های شغلی" },
+              { "id": 4, "title": "گزارش تخلف در دیجی‌کالا" },
+              { "id": 5, "title": "تماس با دیجی‌کالا" },
+              { "id": 6, "title": "درباره دیجی‌کالا" }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "خدمات مشتریان",
+            "items": [
+              { "id": 1, "title": "پاسخ به پرسش‌های متداول" },
+              { "id": 2, "title": "رویه‌های بازگرداندن کالا" },
+              { "id": 3, "title": "شرایط استفاده" },
+              { "id": 4, "title": "حریم خصوصی" },
+              { "id": 5, "title": "گزارش باگ" }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "راهنمای خرید از دیجی‌کالا",
+            "items": [
+              { "id": 1, "title": "نحوه ثبت سفارش" },
+              { "id": 2, "title": "رویه ارسال سفارش" },
+              { "id": 3, "title": "شیوه‌های پرداخت" },
+              { "id": 3, "title": "شیوه‌های پرداخت" },
+              { "id": 3, "title": "شیوه‌های پرداخت" }
+
+            ]
+          }
+        ]
+      },
+      {
+        "id":3,
+        "name":"navbar_footer",
+        "navbar_footer":[
+            {
+                "id":1,
+                "logo":"https://www.digikala.com/statics/img/png/footerlogo2.webp"
+            },
+            {
+                "id":2,
+                "title":"دانلود اپلیکیشن دیجی کالا"
+            },
+            {
+                "id":3,
+                "app":"https://www.digikala.com/statics/img/svg/appStores/coffe-bazzar.svg"
+            },
+            {
+                "id":4,
+                "app":"https://www.digikala.com/statics/img/svg/appStores/myket.svg"
+            },
+            {
+                "id":5,
+                "app":"https://www.digikala.com/statics/img/svg/appStores/sib-app.svg"
+            },
+            {
+                "id":6,
+                "extra":"https://www.digikala.com/statics/img/svg/More.svg"
+            }
+        ]
+      }
+      
     ]
 
 }

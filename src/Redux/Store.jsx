@@ -23,6 +23,7 @@ import SingleProductPartTwo from './SingleProductPartTwoSlice'
 import News from "./NewsSlice"
 import Cart from "./CartSlice"
 import Article from './ArticleSlice'
+import Footer from './FooterSlice'
 export const store = configureStore({
   reducer: {
     Navbar:NabarSlice,
@@ -48,7 +49,8 @@ export const store = configureStore({
     SingleProductPartTwo:SingleProductPartTwo,
     News:News,
     Cart:Cart,
-    Article:Article
+    Article:Article,
+    Footer:Footer
     
   },
 })
