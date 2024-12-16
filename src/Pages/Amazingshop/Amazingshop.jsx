@@ -24,7 +24,7 @@ if (erorr) return <p>Error: {erorr}</p>;
 
     return ( <>
        
-                <div className=" rounded-lg flex lg:flex-row flex-col p-3 bg-rose-500">
+                <div className=" rounded-lg flex lg:flex-row flex-col p-3 ">
                     <div className="p-4 bg-[#ECEFEE] w-[100%] flex lg:flex-row flex-col gap-10  rounded-3xl">
                         <div className="w-[45%]  flex lg:flex-row flex-col lg:gap-5">
                             <div className="flex flex-row">

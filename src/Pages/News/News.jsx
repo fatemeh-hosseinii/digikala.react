@@ -22,9 +22,9 @@ const News = () => {
     return ( <>
         <div className="p-3">
             <div className=" rounded-lg p-4 flex flex-col border-2 border-[#F0F0F1]">
-                <div className=" w-[100%] flex flex-row justify-center bg-[pink] ">
+                <div className=" w-[100%] flex flex-row justify-center ">
                     
-                  <div className=" flex flex-row gap-2 bg-[blue] justify-center   lg:w-[25%] w-[60%] text-center">
+                  <div className=" flex flex-row gap-2  justify-center   lg:w-[25%] w-[60%] text-center">
                     <h2 className="lg:text-[20px] text-[11px]">داغ ترین چند ساعت گذشته</h2>
                     <Icon icon={ic_local_fire_department} className="text-[yellow]" size={20}/>
 

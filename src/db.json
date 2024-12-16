@@ -99,13 +99,6 @@
 
         },
         {
-            "id":9,
-            "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/cacd5f4a59378ef17cb5fc7a016d5f94400004ac_1730537778.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
-            "alt":"content-media8",
-            "title":"مثل ظاهرش عجیب بود"
-
-        },
-        {
             "id":10,
             "image":"https://dkstatics-public.digikala.com/digikala-content-x-post-media/ce262dd6e24b6a17d114f9df4f98b65f0792dce3_1730152972.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
             "alt":"content-media9",
@@ -3406,6 +3399,95 @@
             {
                 "id":6,
                 "extra":"https://www.digikala.com/statics/img/svg/More.svg"
+            }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "enamad_footer",
+        "enamad_footer": [
+            {
+                "id":1,
+                "image":"https://www.digikala.com/statics/img/png/rezi.webp"
+            },
+            {
+                "id":2,
+                "image":"https://www.digikala.com/statics/img/png/kasbokar.webp"
+            },
+            {
+                "id":3,
+                "image":"https://www.digikala.com/statics/img/png/kasbokar.webp"
+            }
+        ]
+
+      },
+      {
+        "id":5,
+        "name":"brand",
+        "brand_footer":[
+            {
+                "id":1,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digimag.svg"
+            },
+            {
+                "id":2,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digipay.svg"
+            },
+            {
+                "id":3,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digistyle.svg"
+            },
+            {
+                "id":4,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digiplus.svg"
+            },
+            {
+                "id":5,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digiclub.svg"
+            },
+            {
+                "id":6,
+                "image":"https://www.digikala.com/statics/img/svg/footer/jet.svg"
+            },
+            {
+                "id":7,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digiMehr.svg"
+            },
+            {
+                "id":8,
+                "image":"https://www.digikala.com/statics/img/svg/footer/diginext.svg"
+            },
+            {
+                "id":9,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digiexpress.svg"
+            },
+            {
+                "id":10,
+                "image":"https://www.digikala.com/statics/img/svg/footer/ganjeh.svg"
+            },
+            {
+                "id":11,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digify.svg"
+            },
+            {
+                "id":12,
+                "image":"https://www.digikala.com/statics/img/svg/footer/smartech.svg"
+            },
+            {
+                "id":13,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digikala-business.svg"
+            },
+            {
+                "id":14,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digikala-business.svg"
+            },
+            {
+                "id":15,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digikala-business.svg"
+            },
+            {
+                "id":16,
+                "image":"https://www.digikala.com/statics/img/svg/footer/digikala-business.svg"
             }
         ]
       }

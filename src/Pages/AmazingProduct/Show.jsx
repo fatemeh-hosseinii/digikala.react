@@ -26,7 +26,7 @@ const Show = () => {
                 <div className=" flex w-7/10 gap-3 text-gray-400 text-sm">
                     <a>دیجیتال</a>/<a>کالای دیجیتال</a>/<a>ساعت هوشمند</a>
                 </div>
-                <div className="w-1/4 flex gap-8">
+                <div className="w-1/4 xl:flex hidden gap-8">
                     <a href="#" className="text-gray-400 text-xs flex gap-2">
                         <p className="mt-1">فروش در دیجی کالا</p>
                         <Icon className="text-gray-400" icon={homeOutline} size={20} />
@@ -38,7 +38,7 @@ const Show = () => {
                 </div>
             </div>
 
-            <div className=" mt-5 w-full flex flex-row gap-5">
+            <div className=" mt-5 w-full flex xl:flex-row flex-col  gap-5">
                 {product?.map((elem) => (
                     <Itemshowproduct key={elem.id} productshow={elem} />
                 ))}

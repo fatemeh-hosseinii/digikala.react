@@ -13,9 +13,9 @@ const DigiclubItem = ({digiclub}) => {
     return ( <>
      
      <div className=" flex flex-row w-[32%] justify-between p-1  bg-[white] rounded-lg"> 
-        <div className=' lg:w-[40%] w-[55%] bg-[red]'>
-            <div className='flex flex-row mt-4 gap-2 bg-[black]'>
-                    {SelectedIcon && <span className=" lg:w-8 w-[15px] bg-[blue] flex justify-center ">{SelectedIcon}</span>}
+        <div className=' lg:w-[40%] w-[55%] '>
+            <div className='flex flex-row mt-4 gap-2 '>
+                    {SelectedIcon && <span className=" lg:w-8 w-[15px]  flex justify-center ">{SelectedIcon}</span>}
                     <p className="lg:text-[12px] text-[8px] text-[#0C3691] mt-1">{digiclub.title}</p> 
             </div>
         </div>

@@ -4,10 +4,10 @@ import PartRightItemShow from "./PartRightItemShow";
 import PartLeftItemShow from "./PartLeftItemShow";
 const Itemshowproduct = ({productshow}) => {
     return (<>
-        <div className="w-[35%]  flex flex-col ">
+        <div className="xl:w-[35%] w-[100%] flex flex-col xl:p-0 p-2  ">
            <PartRightItemShow productshow={productshow}/>
         </div>
-        <div className="w-[60%] flex flex-row  gap-5 ">
+        <div className="xl:w-[60%] w-[100%]  flex xl:flex-row  flex-col xl:gap-5 ">
             <PartLeftItemShow productshow={productshow}/>
            
         </div>
