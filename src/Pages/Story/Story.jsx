@@ -51,6 +51,8 @@ const Story = () => {
             450: { slidesPerView: 4.5 },
             420: { slidesPerView: 4 },
             380: { slidesPerView: 3.5 },
+            370: { slidesPerView: 3},
+
           }}
           spaceBetween={20}
         >

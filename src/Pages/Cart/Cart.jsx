@@ -47,17 +47,17 @@ const Cart = () => {
 
 
         <hr className="container mt-0"  />
-        <div className=" flex flex-row gap-7 mt-5 rounded-lg  container p-4">
-            <div className="  w-[70%] p-3">
-                <div className=" border-2 flex flex-row rounded-lg border-[#B12BA4] w-[100%] p-2">
-                    <div className="w-[50%] flex flex-col bg-[white] p-2 gap-6">
-                        <div className="w-[30%]">
+        <div className=" flex lg:flex-row flex-col gap-7 mt-5 rounded-lg  container p-4">
+            <div className="  lg:w-[70%] w-[100%] p-3">
+                <div className=" border-2 flex lg:flex-row flex-col rounded-lg border-[#B12BA4] w-[100%] p-2">
+                    <div className="lg:w-[50%]   flex flex-col p-2 gap-6">
+                        <div className="lg:w-[30%] w-[25%]">
                             <img src={fa} alt="" />
                             
                         </div>
                         <p className="font-bold text-[#858296]">خدمات ویژه با اشتراک پلاس</p>
                         <div>
-                            <button className=" border-2 border-[#B12BA4] px-2 py-2 gap-2 rounded-lg flex flex-row">
+                            <button className=" border-2 border-[#B12BA4] lg:px-2 lg:py-2 p-2 gap-2 rounded-lg flex flex-row">
                                 <p className="text-[13px] text-[#B12BA4] mt-1">افزودن پلاس به سبد خرید</p>
                                 <Icon className="text-[#B12BA4]" icon={ic_navigate_before_twotone} size={23} />
                                
@@ -66,8 +66,8 @@ const Cart = () => {
 
                         </div>
                     </div>
-                    <div className="w-[55%] bg-[white]">
-                    <ul className="list-disc pl-5">
+                    <div className="lg:w-[55%] w-[100%] mt-5  ">
+                    <ul className="lg:list-disc lg:pl-5">
                         <li className="text-purple-500">
                             <p className="text-[11px] text-[#81858B]">
                             ۴ ارسال رایگان عادی
@@ -112,18 +112,22 @@ const Cart = () => {
 
                     </div>
                 </div>
-                <div className=" border-2 flex flex-col gap-2 border-[#c7c8cb] rounded-lg mt-5 p-3">
+                <div className=" lg:border-2 flex flex-col gap-2 border-[#c7c8cb] rounded-lg mt-5 p-3">
                     <p className="text-[black] font-bold">سبد خرید شما</p>
                     <p className="text-[#85879A] text-[12px]">۱ کالا</p>
                     {
                         items?.map((elem)=>{
-                           return <DetailsCart product={elem} index={elem.id} key={elem.id}/>
+                           return<>
+                           <DetailsCart product={elem} index={elem.id} key={elem.id}/>
+                           
+                           </> 
                         })
                     }
                     
                 </div>
+                
             </div>
-            <div className="  flex flex-col w-[30%] ">
+            <div className="  flex flex-col lg:w-[30%] w-[100%]  justify-center items-center ">
                 <Totalprice/>
                 <TotalTitleprice/>
             </div>

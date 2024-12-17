@@ -1,13 +1,12 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchpost_footer } from "../../Redux/FooterSlice";
-import dglogo from "../../Media/dglogo.png";
-import footerlogo2 from "../../Media/footerlogo2.png";
-import bazar from "../../Media/coffe-bazzar.png";
-import myket from "../../Media/myket.png";
-import sib_app from "../../Media/sib-app.png";
-import more from "../../Media/More.png";
 
+import {youtube} from 'react-icons-kit/icomoon/youtube'
+import {github} from 'react-icons-kit/icomoon/github'
+import {steam2} from 'react-icons-kit/icomoon/steam2'
+import {linkedin} from 'react-icons-kit/icomoon/linkedin'
+import Icon from "react-icons-kit";
 const FooterList = () => {
   const { Footer, loading, error } = useSelector((state) => state.Footer);
   const dispatch = useDispatch();
@@ -18,7 +17,7 @@ const FooterList = () => {
 
   return (
     <>
-      {/* Main Footer Content */}
+    
       <section className="w-[70%]  flex justify-between flex-row flex-wrap gap-4">
         {loading ? (
           <p className="text-center text-gray-500">در حال بارگذاری...</p>
@@ -50,22 +49,25 @@ const FooterList = () => {
         )}
       </section>
 
-      {/* Follow Us Section */}
-      <section className="flex flex-col p-4  rounded-lg  bg-red-600">
-        <p className="text-[gray] text-lg ">همراه ما باشید!</p>
-        <div className="flex gap-4 items-center">
-          <img
-            src={bazar}
-            alt="Coffe Bazaar"
-            className="w-12 h-12 object-contain"
-          />
-          <img src={myket} alt="Myket" className="w-12 h-12 object-contain" />
-          <img
-            src={sib_app}
-            alt="Sib App"
-            className="w-12 h-12 object-contain"
-          />
-          <img src={more} alt="More" className="w-12 h-12 object-contain" />
+      <section className="flex flex-col p-5 w-[30%]   rounded-lg ">
+        <p className="text-[#5b5b5b] text-lg ">همراه ما باشید!</p>
+        <div className="flex flex-row gap-10 mt-3">
+          <Icon className="text-[#A1A3A8]" icon={youtube} size={30} />
+          <Icon className="text-[#A1A3A8]" icon={github} size={30} />
+          <Icon className="text-[#A1A3A8]" icon={steam2} size={30} />
+          <Icon className="text-[#A1A3A8]" icon={linkedin} size={30} />
+
+          
+        </div>
+        <div className="flex flex-col mt-5">
+          <p className="text-[#626262] text-[15px] font-semibold">با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید
+          </p>
+          <div className="flex flex-row gap-4 mt-4">
+            <input type="text" className="bg-[#F0F0F1] p-3 w-[80%]  rounded-md" placeholder="ایمیل شما" />
+            <button className="bg-[#E0E0E2] w-[15%] p-1 rounded-md text-[white]">ثبت</button>
+
+          </div>
+          
         </div>
       </section>
     </>

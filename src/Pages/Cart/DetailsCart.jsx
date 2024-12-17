@@ -16,50 +16,50 @@ const DetailsCart = ({product,index }) => {
         <>
             <div className="flex flex-col ">
                 <div className=" p-2">
-                    <div className=" mt-2 flex flex-row">
-                            <div className="w-[20%]  flex flex-col p-">
-                                <div className="w-[90%]">
+                    <div className=" mt-2 flex flex-row w-[100%]">
+                            <div className="lg:w-[20%] w-[45%]   flex flex-col ">
+                                <div className="lg:w-[90%] w-[100%]">
                                     <img src={product.image} alt="" />
                                 </div>
-                                <div className="mt-2 w-[80%] flex flex-row justify-center">
+                                <div className="mt-2 w-[80%] lg:flex hidden flex-row justify-center">
                                     <img className="w-[60%]" src={SpecialSell} alt="" />
                                 </div>
                                 
                             </div>
-                            <div className=" flex flex-col gap-2">
-                                <p className="text-[14px] font-bold">    
+                            <div className=" flex flex-col  gap-2">
+                                <p className="lg:text-[14px] text-[13px] font-bold">    
                                 اسپیکر بلوتوثی قابل حمل ایکس-انرژی مدل Climber
 
                                 </p>
                                 <p className="text-[12px]">مشکی</p>
                                 <div className=" flex flex-row gap-2">
                                     <Icon className="text-[#A1A3A8]" icon={ic_verified_user_outline} size={18}/>
-                                    <p className="text-[12px] mt-1">گارانتی 12 ماهه ipm</p>
+                                    <p className="lg:text-[12px] text-[10px] mt-1">گارانتی 12 ماهه ipm</p>
                                     
                                 </div>
                                 <div className=" flex flex-row gap-2">
                                     <Icon className="text-[#A1A3A8]" icon={ic_store_outline} size={18}/>
-                                    <p className="text-[12px] mt-1"> آرون گستر </p>
+                                    <p className="lg:text-[12px] text-[10px] mt-1"> آرون گستر </p>
                                     
                                 </div>
                                 <div className=" flex flex-row gap-2">
                                     <Icon className="text-[#EC4D6D]" icon={androidCar} size={18}/>
-                                    <p className="text-[12px] mt-1">  ارسال دیجی‌کالا </p>
+                                    <p className="lg:text-[12px] text-[10px] mt-1">  ارسال دیجی‌کالا </p>
                                     
                                 </div>
                                 <div className=" flex flex-row gap-2">
                                     <Icon className="text-[#EC4D6D]" icon={androidCar} size={18}/>
-                                    <p className="text-[12px] mt-1">  ارسال امروز (فعلا در شهر تهران و کرج) </p>
+                                    <p className="lg:text-[12px] text-[10px] mt-1">  ارسال امروز (فعلا در شهر تهران و کرج) </p>
                                     
                                 </div>
                             </div>
                     </div>
-                   <div className="flex flex-row w-[36%] justify-between mt-5 p-2 ">
-                        <div className=" w-[38%] rounded-md border-[gray] border-[1px] px-2 py-2 flex flex-row justify-between">
+                   <div className="flex flex-row lg:w-[36%]  w-[100%] justify-between lg:mt-5 p-2 ">
+                        <div className=" lg:w-[38%] w-[30%]  rounded-md border-[gray] border-[1px] lg:px-2 lg:py-2 flex flex-row justify-between">
                              <button>
                                 <Icon icon={trashcan} size={18} className="text-[#EF4056]"/>
                             </button>  
-                            <p className="mt-1 text-[#EF4056]" >1</p>
+                            <p className="lg:mt-1 mt-2 text-[#EF4056]" >1</p>
                             <button>
                                 <Icon icon={u2795} size={18} className="text-[#EF4056]"/>
                             </button>                       
@@ -76,7 +76,7 @@ const DetailsCart = ({product,index }) => {
                 </div>
                <div className="flex flex-row justify-end">
                 <div className="flex flex-row">
-                    <p className="text-[13px] text-[#3EBFD6] font-bold mt-1">انتقال به خرید بعدی</p>
+                    <p className="lg:text-[13px] text-[12px] text-[#3EBFD6] font-bold mt-1">انتقال به خرید بعدی</p>
                     <Icon className="text-[#3EBFD6] font-bold" icon={ic_navigate_before_twotone} size={22} />
                 </div>
                        

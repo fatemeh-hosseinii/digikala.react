@@ -30,7 +30,7 @@ const ShowOne = () => {
                 <div className="flex w-7/10 gap-3 text-gray-400 text-sm">
                     <a>دیجیتال</a>/<a>کالای دیجیتال</a>/<a>ساعت هوشمند</a>
                 </div>
-                <div className="w-1/4 flex gap-8">
+                <div className="w-1/4 lg:flex hidden gap-8">
                     <a href="#" className="text-gray-400 text-xs flex gap-2">
                         <p className="mt-1">فروش در دیجی کالا</p>
                         <Icon className="text-gray-400" icon={homeOutline} size={20} />

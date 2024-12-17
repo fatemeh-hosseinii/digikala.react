@@ -33,7 +33,7 @@ const PartLeftItemShowOne = ({ productshowone }) => {
 
   return (
     <>
-      <div className="w-[65%]">
+      <div className="lg:w-[65%] w-[100%]">
         <div className="flex flex-col p-2 gap-3">
           <p className="text-[#6ABFD3] text-[16px]">{productshowone.explain}</p>
           <p className="text-[16px] font-bold">{productshowone.title}</p>
@@ -53,15 +53,15 @@ const PartLeftItemShowOne = ({ productshowone }) => {
           </div>
         </div>
 
-        <div className="bg-slate-500 p-1">
-          <div className="p-2 flex flex-col bg-[yellow]">
+        <div className=" p-1">
+          <div className="p-2 flex flex-col ">
             <p>رنگ: {selectedColor}</p>
             <div className="flex flex-row gap-3 mt-3">
               {productshowone.color.map((colorItem) => (
                 <div
                   key={colorItem.id}
                   onClick={() => handleColorClick(colorItem.color, colorItem.price)}
-                  className={`rounded-full p-4 cursor-pointer ${ selectedColor === colorItem.color ? 'border-blue-500' : 'border-[#cbcbcb]'}`}
+                  className={`rounded-full p-4 cursor-pointer ${ selectedColor === colorItem.color ? 'border-[2px] border-blue-500': 'border-[2px] border-[#969696]'}`}
                   style={{ backgroundColor: colorItem.color }}
                 ></div>
               ))}
@@ -97,13 +97,13 @@ const PartLeftItemShowOne = ({ productshowone }) => {
           </div>
         </div>
 
-        <div className="bg-orange-950 mt-5 p-5 rounded-lg">
+        <div className=" mt-5 p-5 rounded-lg border-[1px] border-[gray]">
           <p className="text-[#B12BA7]">ارسال رایگان سفارش‌ها برای اعضای پلاس</p>
           <p className="text-[12px] mt-2 text-[#CAD4CB]">۴ ارسال رایگان ماهانه + ۲ ارسال رایگان بیشتر، ویژه سوپرمارکت</p>
           <p className="text-[12px] mt-2 text-[#CAD4CB]">پشتیبانی اختصاصی</p>
           <p className="text-[12px] mt-2 text-[#CAD4CB]">ارسال فوری برای شهر تهران (رایگان)</p>
 
-          <div className="mt-4 bg-slate-700 flex flex-row justify-between">
+          <div className="mt-4 flex flex-row justify-between">
             <a className="text-[#19C5E0] flex flex-row mt-5" href="#">
               <p>خرید اشتراک</p>
               <Icon icon={ic_navigate_before_twotone} size={20} />
@@ -113,7 +113,7 @@ const PartLeftItemShowOne = ({ productshowone }) => {
         </div>
       </div>
 
-      <div className="w-[45%] h-[80vh] mt-[120px] bg-[#F7F7F7] border-2 border-[#b5b5b5] rounded-lg p-3">
+      <div className="lg:w-[45%] w-[100%] lg:h-[80vh] lg:mt-[120px] bg-[#F7F7F7] border-[1px] border-[#b5b5b5] rounded-lg p-3">
         <p className="text-black font-bold">فروشنده</p>
         <div className="bg-green mt-4 flex flex-row gap-5">
           <Icon icon={ic_store_outline} size={25} className="text-[#424750]" />
@@ -133,14 +133,14 @@ const PartLeftItemShowOne = ({ productshowone }) => {
 
         <div className="line bg-[#c2c2c2] w-[95%] h-[2px] mx-auto mt-10"></div>
 
-        <div className="flex flex-row justify-between bg-slate-400 mt-5">
+        <div className="flex flex-row justify-between  mt-5">
           <Icon icon={ic_error_outline_twotone} />
           <div className="flex flex-col">
             <div className="flex flex-row">
               <div className="flex items-center justify-end w-full gap-1">
                 <span className="line-through text-body-2 ml-1 text-neutral-300">{productshowone.price}</span>
                 <div className="px-1 text-white rounded-xl flex items-center justify-center bg-red">
-                  <span className="text-[12px]">۳۳٪</span>
+                  <span className="text-[12px] text-[red]">۳۳٪</span>
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@ const PartLeftItemShowOne = ({ productshowone }) => {
           </div>
         </div>
 
-        <div className="bg-slate-500 mt-5">
+        <div className="mt-5">
           <p className="text-[12px]">۵۰۰+ نفر به این کالا علاقه دارند</p>
         </div>
         <div className="mt-4 w-[100%] py-1 bg-[#ef4056] rounded-lg">

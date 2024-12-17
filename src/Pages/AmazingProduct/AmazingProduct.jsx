@@ -140,7 +140,8 @@ const AmazingProduct = () => {
                 navigation 
                 modules={[Navigation]} 
                 breakpoints={{
-        
+                    370: { slidesPerView: 2},
+                    
                     380:{
                         slidesPerView:2.5
                     },

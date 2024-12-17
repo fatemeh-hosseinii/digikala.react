@@ -47,8 +47,8 @@ const PartLeftItemShowThree = ({ productshowthree }) => {
           </div>
         </div>
 
-        <div className="bg-slate-500 p-1">
-          <div className="p-2 flex flex-col bg-[yellow]">
+        <div className=" p-1">
+          <div className="p-2 flex flex-col ">
             <p>رنگ: {selectedColor}</p>
             <div className="flex flex-row gap-3 mt-3">
               {productshowthree.color.map((colorItem) => (
@@ -91,13 +91,13 @@ const PartLeftItemShowThree = ({ productshowthree }) => {
           </div>
         </div>
 
-        <div className="bg-orange-950 mt-5 p-5 rounded-lg">
+        <div className=" mt-5 p-5 rounded-lg  border-[1px] border-[gray]">
           <p className="text-[#B12BA7]">ارسال رایگان سفارش‌ها برای اعضای پلاس</p>
           <p className="text-[12px] mt-2 text-[#CAD4CB]">۴ ارسال رایگان ماهانه + ۲ ارسال رایگان بیشتر، ویژه سوپرمارکت</p>
           <p className="text-[12px] mt-2 text-[#CAD4CB]">پشتیبانی اختصاصی</p>
           <p className="text-[12px] mt-2 text-[#CAD4CB]">ارسال فوری برای شهر تهران (رایگان)</p>
 
-          <div className="mt-4 bg-slate-700 flex flex-row justify-between">
+          <div className="mt-4  flex flex-row justify-between">
             <a className="text-[#19C5E0] flex flex-row mt-5" href="#">
               <p>خرید اشتراک</p>
               <Icon icon={ic_navigate_before_twotone} size={20} />
@@ -107,7 +107,7 @@ const PartLeftItemShowThree = ({ productshowthree }) => {
         </div>
       </div>
 
-      <div className="lg:w-[45%] w-[100%] h-[80vh] mt-[120px] bg-[#F7F7F7] border-2 border-[#b5b5b5] rounded-lg p-3">
+      <div className="lg:w-[45%] w-[100%] lg:h-[80vh] lg:mt-[120px] bg-[#F7F7F7] border-2 border-[#b5b5b5] rounded-lg p-3">
         <p className="text-black font-bold">فروشنده</p>
         <div className="bg-green mt-4 flex flex-row gap-5">
           <Icon icon={ic_store_outline} size={25} className="text-[#424750]" />
@@ -144,7 +144,7 @@ const PartLeftItemShowThree = ({ productshowthree }) => {
           </div>
         </div>
 
-        <div className="bg-slate-500 mt-5">
+        <div className=" mt-5">
           <p className="text-[12px]">۵۰۰+ نفر به این کالا علاقه دارند</p>
         </div>
         <div className="mt-4 w-[100%] py-1 bg-[#ef4056] rounded-lg">

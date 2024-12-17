@@ -103,7 +103,7 @@ const  PartLeftItemShow= ({productshow}) => {
                 </div>
                 </div>
            </div>
-           <div className="xl:w-[45%] w-[100%] lg:h-[80vh] mt-[80px]  border-[1px] border-[#b5b5b5] rounded-lg p-3">
+           <div className="xl:w-[45%] w-[100%] lg:h-[80vh] lg:mt-[80px]  border-[1px] border-[#b5b5b5] rounded-lg p-3">
                 <p className="text-[black] font-bold">فروشنده</p>
                 <div className=" mt-4 flex flex-row gap-5">
                     <Icon icon={ic_store_outline} size={25} className="text-[#424750]" />

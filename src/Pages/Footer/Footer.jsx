@@ -72,7 +72,7 @@ const Footer = () => {
                     Footer?.map((item,index)=>{
                         return item.baner_footer?.map((banerItem,elemIndex)=>{
                             return <>
-                            <div className="flex flex-col justify-around items-center w-[100%]">
+                            <div className="flex flex-col justify-around items-center w-[100%] mt-5 ">
                                 <div className="w-[25%]">
                                     <img src={banerItem.image} alt="2" />
                                                                         
@@ -86,7 +86,7 @@ const Footer = () => {
                 }
             
            </div>
-            <div className=" w-[100%] flex flex-row gap-5 mt-5 ">
+            <div className=" w-[100%] flex flex-row gap-9 mt-6 ">
                 <FooterList/>
               
            </div>
